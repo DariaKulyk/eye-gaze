@@ -1,7 +1,7 @@
 import csv
 
-""" This function changes hex colors to normalized 
-rgb values to enable matplotlib ListedColormap generation"""
+""" This function changes rgb colors to normalized 
+rgb colors to enable matplotlib ListedColormap generation"""
 def normalize_colors(rgb_colors):
     normalized_colors = []
     for color in rgb_colors:

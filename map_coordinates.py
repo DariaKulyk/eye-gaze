@@ -3,19 +3,17 @@
 import matplotlib.pyplot as plt
 
 """ This function check if the gaze points fall within the bounding 
-box of at least one of the categories in categories_for_test """
-# categories_for_test = ['Animal', 'Building', 'Dress', 'Hat', 'Human eye', 'Human mouth', 'Human hand', 'Tree']
+boxes of at least one of the boxes in boxes_category_dict """
 def check_gaze_in_bounding_boxes(gaze_x, gaze_y, radius, boxes_category_dict):
     categories = []
     flag = False
     for category, bounding_boxes in boxes_category_dict.items():
-        # if category in categories_for_test:
-            for box in bounding_boxes:
-                x_min, y_min, width, height = box
-                if gaze_x >= x_min and gaze_x <= x_min + width and gaze_y >= y_min and gaze_y <= y_min + height:
-                # Gaze coordinates fall within the bounding box
-                    categories.append(category)
-                    flag = True
+        for box in bounding_boxes:
+            x_min, y_min, width, height = box
+            if gaze_x >= x_min and gaze_x <= x_min + width and gaze_y >= y_min and gaze_y <= y_min + height:
+            # Gaze coordinates fall within the bounding box
+                categories.append(category)
+                flag = True
              
     # Gaze coordinates do not fall within any bounding box
     return flag, categories
@@ -27,7 +25,6 @@ def calculate_gaze_duration_in_objects(gaze_data, radius, boxes_category_dict):
     total_duration_outside_objects = 0.0
     count_objects = 0
     count_no_objects = 0
-    processed_gaze_points = []
     duration_objects_arr = []
     duration_no_objects_arr = []
     object_duration_dict = {}
@@ -37,9 +34,7 @@ def calculate_gaze_duration_in_objects(gaze_data, radius, boxes_category_dict):
 
         flag, categories = check_gaze_in_bounding_boxes(gaze_x, gaze_y, radius, boxes_category_dict)
         if flag:
-            # if gaze_point not in processed_gaze_points:
             duration_objects_arr.append(duration)
-                # processed_gaze_points.append(gaze_point)
             for category in categories:
                 # Uncomment for meaningful versus non-meaningful areas, Experiment 2
                 # if category != "Person" and category != "Human head" and category != "Human hair":
@@ -179,156 +174,4 @@ def plot_objects_by_painting(objects, paintings, percentage):
 
     # Show the plot
     plt.show()
-
-
-# def find_most_viewed_object_group(participant_data):
-#     most_viewed_objects = {}
-#     total_participants = len(participant_data)
-
-#     for participant_dict in participant_data:
-#         viewed_objects = set()
-#         for painting, data in participant_dict.items():
-#             object_name = data['Object']
-#             # duration = data['Duration']
-#             viewed_objects.add(object_name)
-            
-#         for object_name in viewed_objects:
-#             if object_name not in most_viewed_objects:
-#                 most_viewed_objects[object_name] = 1
-#             else:
-#                 most_viewed_objects[object_name] += 1
-
-#     most_viewed_list = []
-#     for object_name, count in most_viewed_objects.items():
-#         percentage = (count / total_participants) * 100
-#         most_viewed_list.append({'Object': object_name, 'Count': count, 'Percentage': percentage})
-#             # if painting not in most_viewed_objects:
-#             #     most_viewed_objects[painting] = {'Object': object_name, 'Count': 1, 'Duration' : duration}
-#             # else:
-#             #     if duration > most_viewed_objects[painting].get('Duration'):
-#             #         print("update object")
-#             #         most_viewed_objects[painting] = {'Object': object_name, 'Count': 1}
-#             #     elif duration == most_viewed_objects[painting].get('Duration'):
-#             #         most_viewed_objects[painting]['Count'] += 1
-
-#     # for painting, data in most_viewed_objects.items():
-#     #     percentage = (data['Count'] / total_participants) * 100
-#     #     most_viewed_objects[painting]['Percentage'] = percentage
-
-#     return most_viewed_list
-
-# def find_most_viewed_object(participant_data):
-#     object_duration_dict = {}
-
-#     # Iterate through participant data
-#     for participant in participant_data:
-#         # Get the object with the maximum duration for the participant
-#         max_duration_object = max(participant, key=participant.get)
-
-#         # Increment the total duration for that object
-#         if max_duration_object in object_duration_dict:
-#             object_duration_dict[max_duration_object] += participant[max_duration_object]
-#         else:
-#             object_duration_dict[max_duration_object] = participant[max_duration_object]
-
-#     # Find the object with the highest total duration
-#     most_viewed_object = max(object_duration_dict, key=object_duration_dict.get)
-#     duration = object_duration_dict[most_viewed_object]
-
-#     return most_viewed_object, duration
-
-
-
-# def calculate_gaze_duration_in_objects(gaze_data, boxes_category_dict):
-#     total_duration_in_objects = 0.0
-#     total_duration_outside_objects = 0.0
-#     count_objects = 0
-#     count_no_objects = 0
-#     processed_gaze_points = []
-#     duration_objects_arr = []
-#     duration_no_objects_arr = []
-#     object_duration_dict = {}
-
-#     for gaze_point in gaze_data:
-#         gaze_x, gaze_y, duration = gaze_point
-
-#         if gaze_point not in processed_gaze_points:
-#             flag, category_id = check_gaze_in_bounding_boxes(gaze_x, gaze_y, boxes_category_dict)
-#             if flag:
-#             # if check_gaze_in_bounding_boxes(gaze_x, gaze_y, boxes_category_dict):
-#                 # total_duration_in_objects += duration
-#                 # count_objects += 1
-#                 duration_objects_arr.append(duration)
-#                 if category_id in object_duration_dict:
-#                     # If it exists, append the new bbox to the existing list of bbox values
-#                     current_value = object_duration_dict[category_id]
-#                     new_value = current_value + duration
-#                     object_duration_dict[category_id] = new_value
-#                 else:
-#                     # If it doesn't exist, create a new list with the bbox value
-#                     object_duration_dict[category_id] = duration
-#             else:
-#                 # total_duration_outside_objects += duration
-#                 # count_no_objects += 1
-#                 duration_no_objects_arr.append(duration)
-            
-#             processed_gaze_points.append(gaze_point)
-    
-#     total_duration_in_objects = sum(duration_objects_arr)
-#     total_duration_outside_objects = sum(duration_no_objects_arr)
-#     count_objects = len(duration_objects_arr)
-#     count_no_objects = len(duration_no_objects_arr)
-#     average_duration_ouside_objects = total_duration_outside_objects/count_no_objects if count_no_objects != 0 else 0
-#     average_duration_in_objects = total_duration_in_objects/count_objects if count_objects != 0 else 0
-#     max_duration_in_objects = max(duration_objects_arr) if count_objects != 0 else 0
-#     max_duration_outside_objects = max(duration_no_objects_arr) if count_no_objects != 0 else 0
-#     # average_duration_ouside_objects = total_duration_outside_objects/count_no_objects if count_no_objects != 0 else 0
-#     # average_duration_in_objects = total_duration_in_objects/count_objects if count_objects != 0 else 0
-
-#     return total_duration_in_objects, total_duration_outside_objects, average_duration_in_objects, average_duration_ouside_objects, max_duration_in_objects, max_duration_outside_objects
-
-
-
-
-# def calculate_gaze_duration_in_objects(gaze_data, radius, boxes_category_dict):
-#     total_duration_in_objects = 0.0
-#     total_duration_outside_objects = 0.0
-#     count_objects = 0
-#     count_no_objects = 0
-#     processed_gaze_points = []
-#     duration_objects_arr = []
-#     duration_no_objects_arr = []
-#     object_duration_dict = {}
-
-#     for gaze_point in gaze_data:
-#         gaze_x, gaze_y, duration = gaze_point
-
-#         flag, categories = check_gaze_in_bounding_boxes(gaze_x, gaze_y, radius, boxes_category_dict)
-#         if flag:
-#             # if gaze_point not in processed_gaze_points:
-#             duration_objects_arr.append(duration)
-#                 # processed_gaze_points.append(gaze_point)
-#             for category in categories:
-#                 if category in object_duration_dict:
-#                     # If it exists, update the value
-#                     current_value = object_duration_dict[category]
-#                     new_value = current_value + duration
-#                     object_duration_dict[category] = new_value
-#                 else:
-#                     # If it doesn't exist, add a new key-value pair
-#                     object_duration_dict[category] = duration
-#         else:
-#             duration_no_objects_arr.append(duration)
-            
-#     total_duration_in_objects = sum(duration_objects_arr)
-#     total_duration_outside_objects = sum(duration_no_objects_arr)
-#     count_objects = len(duration_objects_arr)
-#     count_no_objects = len(duration_no_objects_arr)
-#     average_duration_ouside_objects = total_duration_outside_objects/count_no_objects if count_no_objects != 0 else 0
-#     average_duration_in_objects = total_duration_in_objects/count_objects if count_objects != 0 else 0
-#     max_duration_in_objects = max(duration_objects_arr) if count_objects != 0 else 0
-#     max_duration_outside_objects = max(duration_no_objects_arr) if count_no_objects != 0 else 0
-
-#     return total_duration_in_objects, total_duration_outside_objects, average_duration_in_objects, average_duration_ouside_objects, max_duration_in_objects, max_duration_outside_objects, object_duration_dict
-
 
