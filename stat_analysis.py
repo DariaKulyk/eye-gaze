@@ -12,12 +12,9 @@ def calculate_significance(obj_arr, non_obj_arr):
     # Perform Shapiro-Wilk test for normality
     _, p_value_shapiro = stats.shapiro(differences)
     print("Shapiro-Wilk's test p-value (normality assumption):", p_value_shapiro)
-    # Flag to distinguish from normal data test and non-normal data test
-    # is_t_test = False
     # Check the normality assumption
     alpha = 0.05  # Significance level
     if p_value_shapiro > alpha:
-        # is_t_test = True
         # Sample passes the normality assumption
         # Perform paired t-test
         t_statistic, p_value = stats.ttest_rel(obj_arr, non_obj_arr, alternative="greater")
