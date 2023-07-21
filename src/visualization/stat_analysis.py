@@ -40,9 +40,10 @@ def calculate_significance(obj_arr, non_obj_arr):
 """ This function checks for normality and homogeniety assumptions and prints
 results to determine whether there is a difference in the average time spent
 on the painting between the different object categories """ 
-def perform_one_way_anova():
+def perform_one_way_anova(anova_file):
     # Read the CSV file
-    df = pd.read_csv('data/processed/anova-data-filtered-time.csv')
+    df = pd.read_csv(anova_file)
+    # df = pd.read_csv('../../data/processed/anova-data-filtered-time.csv')
     list_of_column_names = list(df.columns)
     interest_column = list_of_column_names[0] # Column containing the time spent on the painting
     group_column = list_of_column_names[1] # Column containing the object type
