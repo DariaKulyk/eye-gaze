@@ -6,7 +6,7 @@ Code from the paper "Combining object detection and eye-tracking to identify poi
 
 ### Create a heatmap visualization and perform statistical tests
 
-'''
+```
 usage: create_heatmap.py [-h] [--test_images TEST_IMAGES] [--annotation_file ANNOTATION_FILE] [--heatmaps HEATMAPS] [--anova_file ANOVA_FILE]
 
 arguments:
@@ -19,4 +19,4 @@ arguments:
   --anova_file ANOVA_FILE
                         csv file for one-way anova test (default: ../../data/processed/anova-data-filtered-time.csv)
 
-'''
+```
