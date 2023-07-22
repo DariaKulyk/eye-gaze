@@ -20,3 +20,16 @@ arguments:
                         csv file for one-way anova test (default: ../../data/processed/anova-data-filtered-time.csv)
 
 ```
+### Prepare downloaded Open Images dataset for object detection
+```
+usage: prepare_dataset.py [-h] [--input_json INPUT_JSON] [--input_images INPUT_IMAGES] [--output_directory OUTPUT_DIRECTORY]
+
+options:
+  -h, --help            show this help message and exit
+  --input_json INPUT_JSON
+                        original json annotation file (default: /Volumes/Samsung_USB/coco-dataset/labels.json)
+  --input_images INPUT_IMAGES
+                        original image directory to be updated (default: /Volumes/SAMSUNG_USB/coco-dataset/data)
+  --output_directory OUTPUT_DIRECTORY
+                        directory to store modified json annotation files (annotations.json, train_annotations.json, validation_annotations.json) and train and validation images (default: /Volumes/SAMSUNG_USB/thesis-dataset)
+```

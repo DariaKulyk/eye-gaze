@@ -24,7 +24,7 @@ nltk.download('omw-1.4')
 nltk.download('maxent_ne_chunker')
 
 # Load the dataset
-df = pd.read_csv('data/external/semart_train.csv', sep='\t', encoding = 'latin-1')
+df = pd.read_csv('../../data/external/semart_train.csv', sep='\t', encoding = 'latin-1')
 # print(df.head(15))
 
 filtered_df = df[(df['TIMEFRAME'] == '1601-1650') | (df['TIMEFRAME'] == '1651-1700')] 

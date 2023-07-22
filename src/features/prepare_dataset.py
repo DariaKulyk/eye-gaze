@@ -3,6 +3,7 @@ import os
 import random
 import shutil
 import copy
+from argparse import ArgumentParser, ArgumentDefaultsHelpFormatter
 
 desired_categories = ["Human hand", "Human head", "Person", "Hat", "Human hair", "Dress", "Human eye", "Building", "Tree", "Animal", "Human mouth"]
 desired_limits = {
@@ -84,13 +85,13 @@ def delete_images_not_in_json(image_directory, json_data):
                 os.remove(file_path)
 
 # Function to split the final dataset into train and validation
-def split_dataset(coco_data, split, image_directory):  
+def split_dataset(coco_data, split, image_directory, output_directory):  
     # Shuffle image IDs
     images = coco_data['images']
     annotations = coco_data['annotations']
     random.shuffle(images)
     split_point = int(len(images) * split)
-    print(f"Total images: {len(images)}, Total annotations: {len(annotations)}, Image split point: {split_point}") # 11260, 9571
+    print(f"Total images: {len(images)}, Total annotations: {len(annotations)}, Image split point: {split_point}") # 11260, 44118, 9571
 
     # Split the image annotations into training and validation sets
     train_image_annotations = images[:split_point]
@@ -106,42 +107,56 @@ def split_dataset(coco_data, split, image_directory):
     train_data = copy.deepcopy(coco_data)
     train_data["images"] = [img for img in train_data["images"] if img["id"] in train_ids]
     train_data["annotations"] = [ann for ann in train_data["annotations"] if ann["image_id"] in train_ids]
-    print (f"Number of train images: {len(train_data['images'])}, Number of train annotations: {len(train_data['annotations'])}") # 9571, 37638
+    print (f"Number of train images: {len(train_data['images'])}, Number of train annotations: {len(train_data['annotations'])}") # 9571, ...
     
     val_data = copy.deepcopy(coco_data)
     val_data["images"] = [img for img in val_data["images"] if img["id"] in val_ids]
     val_data["annotations"] = [ann for ann in val_data["annotations"] if ann["image_id"] in val_ids]
-    print (f"Number of validation images: {len(val_data['images'])}, Number of validation annotations: {len(val_data['annotations'])}") # 1689, 6670
+    print (f"Number of validation images: {len(val_data['images'])}, Number of validation annotations: {len(val_data['annotations'])}") # 1689, ...
     
     # Save the new annotation files
-    output_train_annotation_file = os.path.join("/Volumes/Samsung_USB/annotations", 'train_annotations.json')
+    output_train_annotation_file = os.path.join(output_directory, 'train_annotations.json')
     with open(output_train_annotation_file, 'w') as f:
         json.dump(train_data, f, indent = 2)
     
-    output_val_annotation_file = os.path.join("/Volumes/Samsung_USB/annotations", 'val_annotations.json')
+    output_val_annotation_file = os.path.join(output_directory, 'val_annotations.json')
     with open(output_val_annotation_file, 'w') as f:
         json.dump(val_data, f, indent = 2)
     
     
     # Copy images to the respective splits
+    dst_folder_path = os.path.join(output_directory, 'train')
+    os.makedirs(dst_folder_path)
     for _image in train_data['images']:
-        src_path = image_directory + "/" + _image['file_name']
-        dst_path = "/Volumes/Samsung_USB/train/" + _image['file_name']
+        src_path = os.path.join(image_directory, _image['file_name'])
+        dst_path = os.path.join(dst_folder_path, _image['file_name'])
         shutil.copy(src_path, dst_path)
-        
+     
+    dst_folder_path = os.path.join(output_directory, 'validation')
+    os.makedirs(dst_folder_path)   
     for _image in val_data['images']:
-        src_path = image_directory + "/" + _image['file_name']
-        dst_path = "/Volumes/Samsung_USB/validation/" + _image['file_name']
+        src_path = os.path.join(image_directory, _image['file_name'])
+        dst_path = os.path.join(dst_folder_path, _image['file_name'])
         shutil.copy(src_path, dst_path)
 
 
-def main():
-    # JSON file with unmodified annotations
-    input_json="/Volumes/Samsung_USB/coco-dataset/labels.json"
-    # JSON file to store modified annotations
-    output_json = "/Volumes/SAMSUNG_USB/coco-dataset/positive_limited_ann.json"
-    # Directory with all images to be updated
-    image_directory = "/Volumes/SAMSUNG_USB/coco-dataset/data"
+def main(input_json = '/Volumes/Samsung_USB/coco-dataset/labels.json', 
+         input_images = '/Volumes/SAMSUNG_USB/coco-dataset/data',
+         output_directory = '/Volumes/SAMSUNG_USB/thesis-dataset'
+         ):
+    
+    param_dict = {
+        'input_json': input_json,
+        'input_images': input_images,
+        'output_diretory': output_directory
+    }
+    
+    # Original json annotation file
+    input_json=param_dict['input_json']
+    # Original image directory to be updated
+    input_images = param_dict['input_images']
+    # Directory to store modified annotation files (annotations.json, train_annotations.json, validation_annotations.json)
+    output_directory = param_dict['output_diretory']
     
     # Load the JSON file with all anotations
     with open(input_json, 'r') as file:
@@ -170,19 +185,31 @@ def main():
     # Function to modify the number of instances per category 
     modified_json = modify_json(json_data, desired_limits)
 
+    output_json = os.path.join(output_directory, 'annotations.json')
     with open(output_json, 'w') as file:
         json.dump(modified_json, file, indent=2)
 
     # Function to delete images that are not in the modified json annotation file
-    delete_images_not_in_json(image_directory, modified_json)
+    delete_images_not_in_json(input_images, modified_json)
     print("Images filtered")
     print("Splitting dataset...")
     
-    split_dataset(modified_json, 0.85, image_directory)
+    split_dataset(modified_json, 0.85, input_images, output_directory)
     
     
 if __name__ == "__main__":
-    main()
+    parser = ArgumentParser(formatter_class=ArgumentDefaultsHelpFormatter)
+    parser.add_argument('--input_json', type=str,
+                           default='/Volumes/Samsung_USB/coco-dataset/labels.json',
+                           help='original json annotation file')
+    parser.add_argument('--input_images', type=str,
+                           default='/Volumes/SAMSUNG_USB/coco-dataset/data',
+                           help='original image directory to be updated'),
+    parser.add_argument('--output_directory', type=str,
+                           default='/Volumes/SAMSUNG_USB/thesis-dataset',
+                           help='directory to store modified json annotation files (annotations.json, train_annotations.json, validation_annotations.json) and train and validation images')
+    args = parser.parse_args()
+    main(**dict(args._get_kwargs()))
     
 
 
