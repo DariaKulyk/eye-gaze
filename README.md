@@ -20,6 +20,9 @@ arguments:
                         csv file for one-way anova test (default: ../../data/processed/anova-data-filtered-time.csv)
 
 ```
+### Jupyter notebook
+The notebook contains code for downloading Open Images dataset and evaluating test dataset.
+
 ### Prepare downloaded Open Images dataset for object detection
 ```
 usage: prepare_dataset.py [-h] [--input_json INPUT_JSON] [--input_images INPUT_IMAGES] [--output_directory OUTPUT_DIRECTORY]
