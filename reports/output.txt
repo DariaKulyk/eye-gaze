@@ -49,13 +49,6 @@ Average duration in objects: 0.022543633179347836
 Average duration outside objects: 0.013662824999999995
 {'B1_Painting': {'Human hair': 0.8888405, 'Human head': 3.2881781, 'Person': 8.296057010000004, 'Human eye': 0.0730143, 'Human mouth': 1.0966551, 'Human hand': 1.2661830000000003}}
 
-Image: A1_Painting, Total time: 27.791285000000002 Average gaze: 0.02283589564502876
-Total duration in objects: 2.2520694900000007
-Total duration outside objects: 25.539215510000037
-Average duration in objects: 0.026810351071428578
-Average duration outside objects: 0.022541231694616096
-{'A1_Painting': {'Tree': 0.0212651, 'Building': 2.266777490000002, 'Animal': 0.09085969999999999, 'Person': 0.0824975}}
-
 Image: A2_Painting, Total time: 8.31945979 Average gaze: 0.0208507764160401
 Total duration in objects: 5.909542889999995
 Total duration outside objects: 2.4099169000000007
@@ -98,6 +91,13 @@ Average duration in objects: 0.015545248672566368
 Average duration outside objects: 0.018173487931034488
 {'D4_Painting': {'Person': 1.7566130999999996, 'Human head': 0.7870303000000002, 'Human mouth': 0.3628819, 'Human hand': 0.10510950000000001}}
 
+Image: A1_Painting, Total time: 27.791285000000002 Average gaze: 0.02283589564502876
+Total duration in objects: 2.2520694900000007
+Total duration outside objects: 25.539215510000037
+Average duration in objects: 0.026810351071428578
+Average duration outside objects: 0.022541231694616096
+{'A1_Painting': {'Tree': 0.0212651, 'Building': 2.266777490000002, 'Animal': 0.09085969999999999, 'Person': 0.0824975}}
+
 Image: C2_Painting, Total time: 7.18948108 Average gaze: 0.021083522228739004
 Total duration in objects: 2.820574289999999
 Total duration outside objects: 4.3689067900000005
@@ -134,7 +134,7 @@ Average duration outside objects: 0.013588806666666663
 {'B4_Painting': {'Human head': 1.34174171, 'Person': 4.43183101, 'Human eye': 0.134094, 'Human mouth': 0.16658389999999998, 'Human hand': 0.1758214}}
 
 Participant: 30, Average time: 9.590363378947366
-Most viewed by participant: {'C6_Painting': {'Object': 'Person', 'Duration': 4.07303091}, 'B3_Painting': {'Object': 'Person', 'Duration': 2.7600241999999993}, 'B2_Painting': {'Object': 'Person', 'Duration': 6.157249400000004}, 'D3_Painting': {'Object': 'Human hair', 'Duration': 7.214830799999997}, 'C5_Painting': {'Object': 'Person', 'Duration': 8.750914609999997}, 'C4_Painting': {'Object': 'Person', 'Duration': 3.3417631000000005}, 'B1_Painting': {'Object': 'Person', 'Duration': 8.296057010000004}, 'A1_Painting': {'Object': 'Building', 'Duration': 2.266777490000002}, 'A2_Painting': {'Object': 'Human head', 'Duration': 5.909542889999995}, 'C1_Painting': {'Object': 'Human head', 'Duration': 4.308160589999997}, 'D1_Painting': {'Object': 'Person', 'Duration': 3.8855612000000006}, 'A3_Painting': {'Object': 'Building', 'Duration': 9.420027779999995}, 'B5_Painting': {'Object': 'Person', 'Duration': 11.907446890000008}, 'D4_Painting': {'Object': 'Person', 'Duration': 1.7566130999999996}, 'C2_Painting': {'Object': 'Human head', 'Duration': 2.820574289999999}, 'D2_Painting': {'Object': 'Human head', 'Duration': 6.686736829999997}, 'D5_Painting': {'Object': 'Person', 'Duration': 7.417516990000005}, 'C3_Painting': {'Object': 'Human head', 'Duration': 1.4215634}, 'B4_Painting': {'Object': 'Person', 'Duration': 4.43183101}}
+Most viewed by participant: {'C6_Painting': {'Object': 'Person', 'Duration': 4.07303091}, 'B3_Painting': {'Object': 'Person', 'Duration': 2.7600241999999993}, 'B2_Painting': {'Object': 'Person', 'Duration': 6.157249400000004}, 'D3_Painting': {'Object': 'Human hair', 'Duration': 7.214830799999997}, 'C5_Painting': {'Object': 'Person', 'Duration': 8.750914609999997}, 'C4_Painting': {'Object': 'Person', 'Duration': 3.3417631000000005}, 'B1_Painting': {'Object': 'Person', 'Duration': 8.296057010000004}, 'A2_Painting': {'Object': 'Human head', 'Duration': 5.909542889999995}, 'C1_Painting': {'Object': 'Human head', 'Duration': 4.308160589999997}, 'D1_Painting': {'Object': 'Person', 'Duration': 3.8855612000000006}, 'A3_Painting': {'Object': 'Building', 'Duration': 9.420027779999995}, 'B5_Painting': {'Object': 'Person', 'Duration': 11.907446890000008}, 'D4_Painting': {'Object': 'Person', 'Duration': 1.7566130999999996}, 'A1_Painting': {'Object': 'Building', 'Duration': 2.266777490000002}, 'C2_Painting': {'Object': 'Human head', 'Duration': 2.820574289999999}, 'D2_Painting': {'Object': 'Human head', 'Duration': 6.686736829999997}, 'D5_Painting': {'Object': 'Person', 'Duration': 7.417516990000005}, 'C3_Painting': {'Object': 'Human head', 'Duration': 1.4215634}, 'B4_Painting': {'Object': 'Person', 'Duration': 4.43183101}}
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Participant: 7
 Image: C6_Painting, Total time: 44.99058255 Average gaze: 0.0456757183248731
@@ -186,13 +186,6 @@ Average duration in objects: 0.021730032271062266
 Average duration outside objects: 0.020448564285714288
 {'B1_Painting': {'Human hair': 0.911566, 'Human head': 2.4587731999999987, 'Person': 5.932298809999999, 'Human eye': 0.053272, 'Human mouth': 0.0089636, 'Human hand': 0.2109639}}
 
-Image: A1_Painting, Total time: 31.10032605 Average gaze: 0.026649808097686373
-Total duration in objects: 6.294159320000001
-Total duration outside objects: 24.806166730000044
-Average duration in objects: 0.025482426396761137
-Average duration outside objects: 0.026963224706521786
-{'A1_Painting': {'Building': 8.235868340000007, 'Tree': 0.6125254, 'Animal': 0.20762339999999999, 'Person': 0.053801999999999996}}
-
 Image: A2_Painting, Total time: 10.93901892 Average gaze: 0.01905752425087108
 Total duration in objects: 4.978779410000002
 Total duration outside objects: 5.960239509999999
@@ -235,6 +228,13 @@ Average duration in objects: 0.019873344176706824
 Average duration outside objects: 0.027474291464646475
 {'D4_Painting': {'Human head': 3.3454465000000004, 'Human hair': 1.1214137999999998, 'Person': 4.948462699999999, 'Human eye': 0.10135260000000001, 'Human mouth': 0.1083902, 'Human hand': 0.022426300000000003}}
 
+Image: A1_Painting, Total time: 31.10032605 Average gaze: 0.026649808097686373
+Total duration in objects: 6.294159320000001
+Total duration outside objects: 24.806166730000044
+Average duration in objects: 0.025482426396761137
+Average duration outside objects: 0.026963224706521786
+{'A1_Painting': {'Building': 8.235868340000007, 'Tree': 0.6125254, 'Animal': 0.20762339999999999, 'Person': 0.053801999999999996}}
+
 Image: C2_Painting, Total time: 19.72093762 Average gaze: 0.045969551561771564
 Total duration in objects: 8.816024940000002
 Total duration outside objects: 10.904912680000006
@@ -271,7 +271,7 @@ Average duration outside objects: 0.026741433749999998
 {'B4_Painting': {'Person': 14.923700689999993, 'Human head': 7.170288490000001, 'Human eye': 0.10271970000000001, 'Human mouth': 0.2905862, 'Human hand': 0.1881103}}
 
 Participant: 7, Average time: 24.89330641
-Most viewed by participant: {'C6_Painting': {'Object': 'Person', 'Duration': 36.96513093999997}, 'B3_Painting': {'Object': 'Person', 'Duration': 2.5459858000000004}, 'B2_Painting': {'Object': 'Person', 'Duration': 10.153875590000006}, 'D3_Painting': {'Object': 'Human hair', 'Duration': 30.187084559999988}, 'C5_Painting': {'Object': 'Person', 'Duration': 26.63071895000001}, 'C4_Painting': {'Object': 'Person', 'Duration': 24.26932767000005}, 'B1_Painting': {'Object': 'Person', 'Duration': 5.932298809999999}, 'A1_Painting': {'Object': 'Building', 'Duration': 8.235868340000007}, 'A2_Painting': {'Object': 'Human head', 'Duration': 4.978779410000002}, 'C1_Painting': {'Object': 'Hat', 'Duration': 2.4742278000000004}, 'D1_Painting': {'Object': 'Person', 'Duration': 19.60171529000002}, 'A3_Painting': {'Object': 'Building', 'Duration': 25.159483140000027}, 'B5_Painting': {'Object': 'Person', 'Duration': 30.375553809999992}, 'D4_Painting': {'Object': 'Person', 'Duration': 4.948462699999999}, 'C2_Painting': {'Object': 'Human head', 'Duration': 8.816024940000002}, 'D2_Painting': {'Object': 'Human head', 'Duration': 30.426201660000025}, 'D5_Painting': {'Object': 'Person', 'Duration': 30.352790370000005}, 'C3_Painting': {'Object': 'Human head', 'Duration': 9.577715910000004}, 'B4_Painting': {'Object': 'Person', 'Duration': 14.923700689999993}}
+Most viewed by participant: {'C6_Painting': {'Object': 'Person', 'Duration': 36.96513093999997}, 'B3_Painting': {'Object': 'Person', 'Duration': 2.5459858000000004}, 'B2_Painting': {'Object': 'Person', 'Duration': 10.153875590000006}, 'D3_Painting': {'Object': 'Human hair', 'Duration': 30.187084559999988}, 'C5_Painting': {'Object': 'Person', 'Duration': 26.63071895000001}, 'C4_Painting': {'Object': 'Person', 'Duration': 24.26932767000005}, 'B1_Painting': {'Object': 'Person', 'Duration': 5.932298809999999}, 'A2_Painting': {'Object': 'Human head', 'Duration': 4.978779410000002}, 'C1_Painting': {'Object': 'Hat', 'Duration': 2.4742278000000004}, 'D1_Painting': {'Object': 'Person', 'Duration': 19.60171529000002}, 'A3_Painting': {'Object': 'Building', 'Duration': 25.159483140000027}, 'B5_Painting': {'Object': 'Person', 'Duration': 30.375553809999992}, 'D4_Painting': {'Object': 'Person', 'Duration': 4.948462699999999}, 'A1_Painting': {'Object': 'Building', 'Duration': 8.235868340000007}, 'C2_Painting': {'Object': 'Human head', 'Duration': 8.816024940000002}, 'D2_Painting': {'Object': 'Human head', 'Duration': 30.426201660000025}, 'D5_Painting': {'Object': 'Person', 'Duration': 30.352790370000005}, 'C3_Painting': {'Object': 'Human head', 'Duration': 9.577715910000004}, 'B4_Painting': {'Object': 'Person', 'Duration': 14.923700689999993}}
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Participant: 25
 Image: C6_Painting, Total time: 3.9420580000000003 Average gaze: 0.019323813725490198
@@ -323,13 +323,6 @@ Average duration in objects: 0.01683212395522387
 Average duration outside objects: 0.0102382875
 {'B1_Painting': {'Person': 4.511009219999997, 'Human hair': 0.7793308, 'Human head': 2.46263972, 'Human eye': 0.0088814, 'Human mouth': 0.129231, 'Human hand': 0.050758700000000004}}
 
-Image: A1_Painting, Total time: 11.08917178 Average gaze: 0.026277658246445495
-Total duration in objects: 0.6451918000000001
-Total duration outside objects: 10.443979979999993
-Average duration in objects: 0.032259590000000005
-Average duration outside objects: 0.02598004970149252
-{'A1_Painting': {'Building': 0.19909660000000004, 'Person': 0.2538032, 'Animal': 0.389757}}
-
 Image: A2_Painting, Total time: 5.061135200000001 Average gaze: 0.018205522302158276
 Total duration in objects: 3.5904512000000017
 Total duration outside objects: 1.4706840000000003
@@ -372,6 +365,13 @@ Average duration in objects: 0.015790900000000004
 Average duration outside objects: 0.011937421875000003
 {'D4_Painting': {'Person': 4.453033800000001, 'Human head': 1.0745746, 'Human mouth': 0.37310740000000003, 'Human hand': 0.064041}}
 
+Image: A1_Painting, Total time: 11.08917178 Average gaze: 0.026277658246445495
+Total duration in objects: 0.6451918000000001
+Total duration outside objects: 10.443979979999993
+Average duration in objects: 0.032259590000000005
+Average duration outside objects: 0.02598004970149252
+{'A1_Painting': {'Building': 0.19909660000000004, 'Person': 0.2538032, 'Animal': 0.389757}}
+
 Image: C2_Painting, Total time: 9.194198309999999 Average gaze: 0.025610580250696378
 Total duration in objects: 4.202690119999999
 Total duration outside objects: 4.991508190000002
@@ -407,8 +407,8 @@ Average duration in objects: 0.023643558271186443
 Average duration outside objects: 0.011373386666666667
 {'B4_Painting': {'Person': 6.974849690000001, 'Human head': 3.784704700000001, 'Human eye': 0.0401881, 'Human mouth': 0.07637899999999999, 'Human hand': 0.011009}}
 
-Participant: 25, Average time: 6.692700246842106
-Most viewed by participant: {'C6_Painting': {'Object': 'Person', 'Duration': 3.942058000000003}, 'B3_Painting': {'Object': 'Person', 'Duration': 9.466382809999999}, 'B2_Painting': {'Object': 'Person', 'Duration': 5.097930100000003}, 'D3_Painting': {'Object': 'Human hair', 'Duration': 2.897215999999997}, 'C5_Painting': {'Object': 'Person', 'Duration': 8.202749709999999}, 'C4_Painting': {'Object': 'Person', 'Duration': 19.104845819999994}, 'B1_Painting': {'Object': 'Person', 'Duration': 4.511009219999997}, 'A1_Painting': {'Object': 'Animal', 'Duration': 0.389757}, 'A2_Painting': {'Object': 'Human head', 'Duration': 3.5904512000000017}, 'C1_Painting': {'Object': 'Hat', 'Duration': 1.11753159}, 'D1_Painting': {'Object': 'Person', 'Duration': 3.1324379000000007}, 'A3_Painting': {'Object': 'Building', 'Duration': 1.6874327999999998}, 'B5_Painting': {'Object': 'Person', 'Duration': 10.808080309999985}, 'D4_Painting': {'Object': 'Person', 'Duration': 4.453033800000001}, 'C2_Painting': {'Object': 'Human head', 'Duration': 4.202690119999999}, 'D2_Painting': {'Object': 'Human head', 'Duration': 7.477379300000004}, 'D5_Painting': {'Object': 'Person', 'Duration': 7.837908900000002}, 'C3_Painting': {'Object': 'Human head', 'Duration': 1.2731181999999996}, 'B4_Painting': {'Object': 'Person', 'Duration': 6.974849690000001}}
+Participant: 25, Average time: 6.692700246842105
+Most viewed by participant: {'C6_Painting': {'Object': 'Person', 'Duration': 3.942058000000003}, 'B3_Painting': {'Object': 'Person', 'Duration': 9.466382809999999}, 'B2_Painting': {'Object': 'Person', 'Duration': 5.097930100000003}, 'D3_Painting': {'Object': 'Human hair', 'Duration': 2.897215999999997}, 'C5_Painting': {'Object': 'Person', 'Duration': 8.202749709999999}, 'C4_Painting': {'Object': 'Person', 'Duration': 19.104845819999994}, 'B1_Painting': {'Object': 'Person', 'Duration': 4.511009219999997}, 'A2_Painting': {'Object': 'Human head', 'Duration': 3.5904512000000017}, 'C1_Painting': {'Object': 'Hat', 'Duration': 1.11753159}, 'D1_Painting': {'Object': 'Person', 'Duration': 3.1324379000000007}, 'A3_Painting': {'Object': 'Building', 'Duration': 1.6874327999999998}, 'B5_Painting': {'Object': 'Person', 'Duration': 10.808080309999985}, 'D4_Painting': {'Object': 'Person', 'Duration': 4.453033800000001}, 'A1_Painting': {'Object': 'Animal', 'Duration': 0.389757}, 'C2_Painting': {'Object': 'Human head', 'Duration': 4.202690119999999}, 'D2_Painting': {'Object': 'Human head', 'Duration': 7.477379300000004}, 'D5_Painting': {'Object': 'Person', 'Duration': 7.837908900000002}, 'C3_Painting': {'Object': 'Human head', 'Duration': 1.2731181999999996}, 'B4_Painting': {'Object': 'Person', 'Duration': 6.974849690000001}}
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Participant: 22
 Image: C6_Painting, Total time: 10.79866861 Average gaze: 0.02443137694570136
@@ -460,13 +460,6 @@ Average duration in objects: 0.012849705681818181
 Average duration outside objects: 0.011636707142857142
 {'B1_Painting': {'Human hair': 0.15158029999999997, 'Human head': 0.32957059999999994, 'Person': 1.1307741, 'Human mouth': 0.08271540000000001}}
 
-Image: A1_Painting, Total time: 21.63379509 Average gaze: 0.025302684315789473
-Total duration in objects: 3.2759822900000013
-Total duration outside objects: 18.357812799999994
-Average duration in objects: 0.02559361164062501
-Average duration outside objects: 0.02525146189821182
-{'A1_Painting': {'Tree': 0.5778232, 'Building': 3.359223090000001, 'Animal': 0.26287019999999994, 'Person': 0.1457599}}
-
 Image: A2_Painting, Total time: 1.8869595 Average gaze: 0.01780150471698113
 Total duration in objects: 1.3901268
 Total duration outside objects: 0.49683269999999996
@@ -509,6 +502,13 @@ Average duration in objects: 0.017426112738853507
 Average duration outside objects: 0.017312220437956206
 {'D4_Painting': {'Person': 2.7358997000000005, 'Human head': 1.7372898, 'Human hair': 1.1779294, 'Human eye': 0.011155, 'Human hand': 0.2524575}}
 
+Image: A1_Painting, Total time: 21.63379509 Average gaze: 0.025302684315789473
+Total duration in objects: 3.2759822900000013
+Total duration outside objects: 18.357812799999994
+Average duration in objects: 0.02559361164062501
+Average duration outside objects: 0.02525146189821182
+{'A1_Painting': {'Tree': 0.5778232, 'Building': 3.359223090000001, 'Animal': 0.26287019999999994, 'Person': 0.1457599}}
+
 Image: C2_Painting, Total time: 6.17990349 Average gaze: 0.02160805416083916
 Total duration in objects: 0.21289059999999999
 Total duration outside objects: 5.967012890000001
@@ -545,7 +545,7 @@ Average duration outside objects: 0.016182413333333333
 {'B4_Painting': {'Human head': 5.508111189999999, 'Person': 10.926444510000005, 'Human eye': 0.0444065, 'Human mouth': 0.0320918, 'Human hand': 0.1411514}}
 
 Participant: 22, Average time: 8.720376317368423
-Most viewed by participant: {'C6_Painting': {'Object': 'Person', 'Duration': 9.21794701}, 'B3_Painting': {'Object': 'Person', 'Duration': 6.731428140000001}, 'B2_Painting': {'Object': 'Person', 'Duration': 1.9080456100000007}, 'D3_Painting': {'Object': 'Human hair', 'Duration': 4.279207600000002}, 'C5_Painting': {'Object': 'Person', 'Duration': 4.068130680000004}, 'C4_Painting': {'Object': 'Person', 'Duration': 12.208335290000013}, 'B1_Painting': {'Object': 'Person', 'Duration': 1.1307741}, 'A1_Painting': {'Object': 'Building', 'Duration': 3.359223090000001}, 'A2_Painting': {'Object': 'Human head', 'Duration': 1.3901268}, 'C1_Painting': {'Object': 'Hat', 'Duration': 2.9050590100000004}, 'D1_Painting': {'Object': 'Person', 'Duration': 2.9467239100000016}, 'A3_Painting': {'Object': 'Building', 'Duration': 21.998688690000026}, 'B5_Painting': {'Object': 'Person', 'Duration': 12.456880260000013}, 'D4_Painting': {'Object': 'Person', 'Duration': 2.7358997000000005}, 'C2_Painting': {'Object': 'Human head', 'Duration': 0.21289059999999999}, 'D2_Painting': {'Object': 'Human head', 'Duration': 5.399111820000001}, 'D5_Painting': {'Object': 'Person', 'Duration': 8.00460959}, 'C3_Painting': {'Object': 'Human head', 'Duration': 1.6631342999999998}, 'B4_Painting': {'Object': 'Person', 'Duration': 10.926444510000005}}
+Most viewed by participant: {'C6_Painting': {'Object': 'Person', 'Duration': 9.21794701}, 'B3_Painting': {'Object': 'Person', 'Duration': 6.731428140000001}, 'B2_Painting': {'Object': 'Person', 'Duration': 1.9080456100000007}, 'D3_Painting': {'Object': 'Human hair', 'Duration': 4.279207600000002}, 'C5_Painting': {'Object': 'Person', 'Duration': 4.068130680000004}, 'C4_Painting': {'Object': 'Person', 'Duration': 12.208335290000013}, 'B1_Painting': {'Object': 'Person', 'Duration': 1.1307741}, 'A2_Painting': {'Object': 'Human head', 'Duration': 1.3901268}, 'C1_Painting': {'Object': 'Hat', 'Duration': 2.9050590100000004}, 'D1_Painting': {'Object': 'Person', 'Duration': 2.9467239100000016}, 'A3_Painting': {'Object': 'Building', 'Duration': 21.998688690000026}, 'B5_Painting': {'Object': 'Person', 'Duration': 12.456880260000013}, 'D4_Painting': {'Object': 'Person', 'Duration': 2.7358997000000005}, 'A1_Painting': {'Object': 'Building', 'Duration': 3.359223090000001}, 'C2_Painting': {'Object': 'Human head', 'Duration': 0.21289059999999999}, 'D2_Painting': {'Object': 'Human head', 'Duration': 5.399111820000001}, 'D5_Painting': {'Object': 'Person', 'Duration': 8.00460959}, 'C3_Painting': {'Object': 'Human head', 'Duration': 1.6631342999999998}, 'B4_Painting': {'Object': 'Person', 'Duration': 10.926444510000005}}
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Participant: 14
 Image: C6_Painting, Total time: 9.22400092 Average gaze: 0.019216668583333332
@@ -597,13 +597,6 @@ Average duration in objects: 0.013345269841269837
 Average duration outside objects: 0.014098132258064517
 {'B1_Painting': {'Person': 3.363007999999999, 'Human hair': 0.6382744999999999, 'Human head': 1.130248, 'Human eye': 0.0335978, 'Human hand': 0.1490785}}
 
-Image: A1_Painting, Total time: 17.457568090000002 Average gaze: 0.01922639657488987
-Total duration in objects: 4.529779779999999
-Total duration outside objects: 12.927788309999995
-Average duration in objects: 0.02188299410628019
-Average duration outside objects: 0.018441923409415115
-{'A1_Painting': {'Tree': 0.36637618999999993, 'Building': 5.422512980000003, 'Animal': 0.2941781, 'Person': 0.19502220000000003}}
-
 Image: A2_Painting, Total time: 6.910219699999999 Average gaze: 0.015633981221719453
 Total duration in objects: 4.490093099999999
 Total duration outside objects: 2.420126600000001
@@ -646,6 +639,13 @@ Average duration in objects: 0.016765115914149455
 Average duration outside objects: 0.014796409782608697
 {'D4_Painting': {'Human head': 7.438511209999998, 'Human hair': 6.490540709999999, 'Person': 10.545257910000007, 'Human eye': 0.3113063999999999, 'Human mouth': 0.32708149999999997, 'Human hand': 0.0667714}}
 
+Image: A1_Painting, Total time: 17.457568090000002 Average gaze: 0.01922639657488987
+Total duration in objects: 4.529779779999999
+Total duration outside objects: 12.927788309999995
+Average duration in objects: 0.02188299410628019
+Average duration outside objects: 0.018441923409415115
+{'A1_Painting': {'Tree': 0.36637618999999993, 'Building': 5.422512980000003, 'Animal': 0.2941781, 'Person': 0.19502220000000003}}
+
 Image: C2_Painting, Total time: 12.23949378 Average gaze: 0.01955190699680511
 Total duration in objects: 1.5217338999999999
 Total duration outside objects: 10.717759880000004
@@ -682,7 +682,7 @@ Average duration outside objects: 0.011716296153846154
 {'B4_Painting': {'Human head': 3.5817188099999986, 'Person': 7.245521899999996, 'Human eye': 0.0808301, 'Human mouth': 0.0284692, 'Human hand': 0.0112212}}
 
 Participant: 14, Average time: 11.64240287368421
-Most viewed by participant: {'C6_Painting': {'Object': 'Person', 'Duration': 9.170849220000004}, 'B3_Painting': {'Object': 'Person', 'Duration': 6.288618400000009}, 'B2_Painting': {'Object': 'Person', 'Duration': 11.088352399999998}, 'D3_Painting': {'Object': 'Human hair', 'Duration': 11.309057099999993}, 'C5_Painting': {'Object': 'Person', 'Duration': 7.259027590000004}, 'C4_Painting': {'Object': 'Person', 'Duration': 21.26805439}, 'B1_Painting': {'Object': 'Person', 'Duration': 3.363007999999999}, 'A1_Painting': {'Object': 'Building', 'Duration': 5.422512980000003}, 'A2_Painting': {'Object': 'Human head', 'Duration': 4.490093099999999}, 'C1_Painting': {'Object': 'Hat', 'Duration': 2.8084190999999983}, 'D1_Painting': {'Object': 'Person', 'Duration': 10.14360319999999}, 'A3_Painting': {'Object': 'Building', 'Duration': 7.173012710000001}, 'B5_Painting': {'Object': 'Person', 'Duration': 17.14647929}, 'D4_Painting': {'Object': 'Person', 'Duration': 10.545257910000007}, 'C2_Painting': {'Object': 'Human head', 'Duration': 1.5217338999999999}, 'D2_Painting': {'Object': 'Human head', 'Duration': 6.7239319900000005}, 'D5_Painting': {'Object': 'Person', 'Duration': 20.530793019999994}, 'C3_Painting': {'Object': 'Human head', 'Duration': 4.034122409999999}, 'B4_Painting': {'Object': 'Person', 'Duration': 7.245521899999996}}
+Most viewed by participant: {'C6_Painting': {'Object': 'Person', 'Duration': 9.170849220000004}, 'B3_Painting': {'Object': 'Person', 'Duration': 6.288618400000009}, 'B2_Painting': {'Object': 'Person', 'Duration': 11.088352399999998}, 'D3_Painting': {'Object': 'Human hair', 'Duration': 11.309057099999993}, 'C5_Painting': {'Object': 'Person', 'Duration': 7.259027590000004}, 'C4_Painting': {'Object': 'Person', 'Duration': 21.26805439}, 'B1_Painting': {'Object': 'Person', 'Duration': 3.363007999999999}, 'A2_Painting': {'Object': 'Human head', 'Duration': 4.490093099999999}, 'C1_Painting': {'Object': 'Hat', 'Duration': 2.8084190999999983}, 'D1_Painting': {'Object': 'Person', 'Duration': 10.14360319999999}, 'A3_Painting': {'Object': 'Building', 'Duration': 7.173012710000001}, 'B5_Painting': {'Object': 'Person', 'Duration': 17.14647929}, 'D4_Painting': {'Object': 'Person', 'Duration': 10.545257910000007}, 'A1_Painting': {'Object': 'Building', 'Duration': 5.422512980000003}, 'C2_Painting': {'Object': 'Human head', 'Duration': 1.5217338999999999}, 'D2_Painting': {'Object': 'Human head', 'Duration': 6.7239319900000005}, 'D5_Painting': {'Object': 'Person', 'Duration': 20.530793019999994}, 'C3_Painting': {'Object': 'Human head', 'Duration': 4.034122409999999}, 'B4_Painting': {'Object': 'Person', 'Duration': 7.245521899999996}}
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Participant: 13
 Image: C6_Painting, Total time: 12.63997801 Average gaze: 0.01753117615811373
@@ -734,13 +734,6 @@ Average duration in objects: 0.013272123433874704
 Average duration outside objects: 0.012303262499999999
 {'B1_Painting': {'Human head': 0.12803489999999998, 'Person': 5.7202851999999975, 'Human hair': 0.0647696, 'Human eye': 0.0110986, 'Human mouth': 0.0110346, 'Human hand': 1.2776647}}
 
-Image: A1_Painting, Total time: 18.21871037 Average gaze: 0.019653409244875943
-Total duration in objects: 4.2624056
-Total duration outside objects: 13.95630477000001
-Average duration in objects: 0.02822785165562914
-Average duration outside objects: 0.0179849288273196
-{'A1_Painting': {'Tree': 0.2151882, 'Building': 5.344290599999999, 'Animal': 0.2823655, 'Person': 0.0404112}}
-
 Image: A2_Painting, Total time: 3.4924361 Average gaze: 0.014491436099585062
 Total duration in objects: 0.0817502
 Total duration outside objects: 3.4106859000000003
@@ -783,6 +776,13 @@ Average duration in objects: 0.01395394828375287
 Average duration outside objects: 0.01972616361344538
 {'D4_Painting': {'Human head': 1.6550028000000008, 'Human hair': 1.1789487000000003, 'Person': 6.097875400000004, 'Human eye': 0.0334546, 'Human mouth': 0.0307188, 'Human hand': 0.1442812}}
 
+Image: A1_Painting, Total time: 18.21871037 Average gaze: 0.019653409244875943
+Total duration in objects: 4.2624056
+Total duration outside objects: 13.95630477000001
+Average duration in objects: 0.02822785165562914
+Average duration outside objects: 0.0179849288273196
+{'A1_Painting': {'Tree': 0.2151882, 'Building': 5.344290599999999, 'Animal': 0.2823655, 'Person': 0.0404112}}
+
 Image: C2_Painting, Total time: 6.1144509000000005 Average gaze: 0.01260711525773196
 Total duration in objects: 0.0429884
 Total duration outside objects: 6.0714625
@@ -819,7 +819,7 @@ Average duration outside objects: 0.011123892105263157
 {'B4_Painting': {'Human head': 0.3537867, 'Person': 0.8872873999999998, 'Human hand': 0.020105400000000002}}
 
 Participant: 13, Average time: 8.524244201052632
-Most viewed by participant: {'C6_Painting': {'Object': 'Person', 'Duration': 8.370091509999996}, 'B3_Painting': {'Object': 'Person', 'Duration': 14.084855810000002}, 'B2_Painting': {'Object': 'Person', 'Duration': 7.251569599999998}, 'D3_Painting': {'Object': 'Human hair', 'Duration': 16.354304959999993}, 'C5_Painting': {'Object': 'Person', 'Duration': 1.0891332999999999}, 'C4_Painting': {'Object': 'Person', 'Duration': 2.909459000000002}, 'B1_Painting': {'Object': 'Person', 'Duration': 5.7202851999999975}, 'A1_Painting': {'Object': 'Building', 'Duration': 5.344290599999999}, 'A2_Painting': {'Object': 'Human head', 'Duration': 0.0817502}, 'C1_Painting': {'Object': 'Hat', 'Duration': 0.45104640000000007}, 'D1_Painting': {'Object': 'Person', 'Duration': 7.533128000000003}, 'A3_Painting': {'Object': 'Building', 'Duration': 2.9856462100000014}, 'B5_Painting': {'Object': 'Building', 'Duration': 0.09806359999999999}, 'D4_Painting': {'Object': 'Person', 'Duration': 6.097875400000004}, 'C2_Painting': {'Object': 'Human head', 'Duration': 0.0429884}, 'D2_Painting': {'Object': 'Human head', 'Duration': 10.44094153}, 'D5_Painting': {'Object': 'Person', 'Duration': 6.826088829999999}, 'C3_Painting': {'Object': 'Human head', 'Duration': 0.2362329}, 'B4_Painting': {'Object': 'Person', 'Duration': 0.8872873999999998}}
+Most viewed by participant: {'C6_Painting': {'Object': 'Person', 'Duration': 8.370091509999996}, 'B3_Painting': {'Object': 'Person', 'Duration': 14.084855810000002}, 'B2_Painting': {'Object': 'Person', 'Duration': 7.251569599999998}, 'D3_Painting': {'Object': 'Human hair', 'Duration': 16.354304959999993}, 'C5_Painting': {'Object': 'Person', 'Duration': 1.0891332999999999}, 'C4_Painting': {'Object': 'Person', 'Duration': 2.909459000000002}, 'B1_Painting': {'Object': 'Person', 'Duration': 5.7202851999999975}, 'A2_Painting': {'Object': 'Human head', 'Duration': 0.0817502}, 'C1_Painting': {'Object': 'Hat', 'Duration': 0.45104640000000007}, 'D1_Painting': {'Object': 'Person', 'Duration': 7.533128000000003}, 'A3_Painting': {'Object': 'Building', 'Duration': 2.9856462100000014}, 'B5_Painting': {'Object': 'Building', 'Duration': 0.09806359999999999}, 'D4_Painting': {'Object': 'Person', 'Duration': 6.097875400000004}, 'A1_Painting': {'Object': 'Building', 'Duration': 5.344290599999999}, 'C2_Painting': {'Object': 'Human head', 'Duration': 0.0429884}, 'D2_Painting': {'Object': 'Human head', 'Duration': 10.44094153}, 'D5_Painting': {'Object': 'Person', 'Duration': 6.826088829999999}, 'C3_Painting': {'Object': 'Human head', 'Duration': 0.2362329}, 'B4_Painting': {'Object': 'Person', 'Duration': 0.8872873999999998}}
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Participant: 23
 Image: C6_Painting, Total time: 3.8719542999999996 Average gaze: 0.01387797240143369
@@ -871,13 +871,6 @@ Average duration in objects: 0.014687478321678321
 Average duration outside objects: 0.015330074074074072
 {'B1_Painting': {'Human hair': 0.5085465, 'Human head': 1.1937043999999992, 'Person': 4.2006188, 'Human eye': 0.031326400000000004, 'Human mouth': 0.042664999999999995, 'Human hand': 0.0411682}}
 
-Image: A1_Painting, Total time: 17.56716938 Average gaze: 0.02009973613272311
-Total duration in objects: 4.204006800000003
-Total duration outside objects: 13.363162579999997
-Average duration in objects: 0.021782418652849755
-Average duration outside objects: 0.019622852540381788
-{'A1_Painting': {'Tree': 0.4510561, 'Building': 4.645992800000001, 'Animal': 0.2681574, 'Person': 0.1845194}}
-
 Image: A2_Painting, Total time: 5.938534499999999 Average gaze: 0.01592100402144772
 Total duration in objects: 3.4311356
 Total duration outside objects: 2.5073989
@@ -920,6 +913,13 @@ Average duration in objects: 0.013077030107526881
 Average duration outside objects: 0.014442291071428567
 {'D4_Painting': {'Person': 2.4323276, 'Human head': 1.7815477, 'Human hair': 1.5458151999999998, 'Human eye': 0.0334844, 'Human hand': 0.0096858}}
 
+Image: A1_Painting, Total time: 17.56716938 Average gaze: 0.02009973613272311
+Total duration in objects: 4.204006800000003
+Total duration outside objects: 13.363162579999997
+Average duration in objects: 0.021782418652849755
+Average duration outside objects: 0.019622852540381788
+{'A1_Painting': {'Tree': 0.4510561, 'Building': 4.645992800000001, 'Animal': 0.2681574, 'Person': 0.1845194}}
+
 Image: C2_Painting, Total time: 1.7810650000000001 Average gaze: 0.0161915
 Total duration in objects: 0.0676611
 Total duration outside objects: 1.7134039
@@ -956,7 +956,7 @@ Average duration outside objects: 0.017752650900900897
 {'B4_Painting': {'Person': 12.045692190000016, 'Human head': 5.626578090000001, 'Human eye': 0.0215966, 'Human mouth': 0.038457099999999994, 'Human hand': 0.0400447}}
 
 Participant: 23, Average time: 7.380823065789474
-Most viewed by participant: {'C6_Painting': {'Object': 'Person', 'Duration': 3.0769649}, 'B3_Painting': {'Object': 'Person', 'Duration': 3.7529457999999996}, 'B2_Painting': {'Object': 'Person', 'Duration': 6.237349399999998}, 'D3_Painting': {'Object': 'Human hair', 'Duration': 9.634395090000007}, 'C5_Painting': {'Object': 'Person', 'Duration': 2.6999156}, 'C4_Painting': {'Object': 'Person', 'Duration': 16.326768869999984}, 'B1_Painting': {'Object': 'Person', 'Duration': 4.2006188}, 'A1_Painting': {'Object': 'Building', 'Duration': 4.645992800000001}, 'A2_Painting': {'Object': 'Human head', 'Duration': 3.4311356}, 'C1_Painting': {'Object': 'Hat', 'Duration': 0.6716966000000001}, 'D1_Painting': {'Object': 'Person', 'Duration': 3.9707621000000004}, 'A3_Painting': {'Object': 'Building', 'Duration': 10.438544909999994}, 'B5_Painting': {'Object': 'Building', 'Duration': 0.9939724899999998}, 'D4_Painting': {'Object': 'Person', 'Duration': 2.4323276}, 'C2_Painting': {'Object': 'Human head', 'Duration': 0.0676611}, 'D2_Painting': {'Object': 'Human head', 'Duration': 4.276071399999998}, 'D5_Painting': {'Object': 'Person', 'Duration': 8.848636709999997}, 'C3_Painting': {'Object': 'Human head', 'Duration': 2.224792510000001}, 'B4_Painting': {'Object': 'Person', 'Duration': 12.045692190000016}}
+Most viewed by participant: {'C6_Painting': {'Object': 'Person', 'Duration': 3.0769649}, 'B3_Painting': {'Object': 'Person', 'Duration': 3.7529457999999996}, 'B2_Painting': {'Object': 'Person', 'Duration': 6.237349399999998}, 'D3_Painting': {'Object': 'Human hair', 'Duration': 9.634395090000007}, 'C5_Painting': {'Object': 'Person', 'Duration': 2.6999156}, 'C4_Painting': {'Object': 'Person', 'Duration': 16.326768869999984}, 'B1_Painting': {'Object': 'Person', 'Duration': 4.2006188}, 'A2_Painting': {'Object': 'Human head', 'Duration': 3.4311356}, 'C1_Painting': {'Object': 'Hat', 'Duration': 0.6716966000000001}, 'D1_Painting': {'Object': 'Person', 'Duration': 3.9707621000000004}, 'A3_Painting': {'Object': 'Building', 'Duration': 10.438544909999994}, 'B5_Painting': {'Object': 'Building', 'Duration': 0.9939724899999998}, 'D4_Painting': {'Object': 'Person', 'Duration': 2.4323276}, 'A1_Painting': {'Object': 'Building', 'Duration': 4.645992800000001}, 'C2_Painting': {'Object': 'Human head', 'Duration': 0.0676611}, 'D2_Painting': {'Object': 'Human head', 'Duration': 4.276071399999998}, 'D5_Painting': {'Object': 'Person', 'Duration': 8.848636709999997}, 'C3_Painting': {'Object': 'Human head', 'Duration': 2.224792510000001}, 'B4_Painting': {'Object': 'Person', 'Duration': 12.045692190000016}}
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Participant: 24
 Image: C6_Painting, Total time: 1.7220776999999998 Average gaze: 0.013246751538461537
@@ -1008,13 +1008,6 @@ Average duration in objects: 0.011838121621621624
 Average duration outside objects: 0.012813109523809525
 {'B1_Painting': {'Person': 0.4380105000000001, 'Human head': 0.135249, 'Human hair': 0.07965739999999999}}
 
-Image: A1_Painting, Total time: 11.3019839 Average gaze: 0.016818428422619047
-Total duration in objects: 0.1016568
-Total duration outside objects: 11.200327100000013
-Average duration in objects: 0.0112952
-Average duration outside objects: 0.016893404374057334
-{'A1_Painting': {'Tree': 0.050744899999999996, 'Building': 0.0690109}}
-
 Image: A2_Painting, Total time: 0.5650579 Average gaze: 0.011301158
 Total duration in objects: 0
 Total duration outside objects: 0.5650578999999999
@@ -1057,12 +1050,19 @@ Average duration in objects: 0.011827994736842106
 Average duration outside objects: 0.013591307692307692
 {'D4_Painting': {'Human head': 0.0110037, 'Human hair': 0.0110037, 'Person': 0.2247319}}
 
-Image: C2_Painting, Total time: 0.5781059 Average gaze: 0.012846797777777776
-Total duration in objects: 0
-Total duration outside objects: 0.5781059
-Average duration in objects: 0
-Average duration outside objects: 0.012846797777777776
-{'C2_Painting': {}}
+Image: A1_Painting, Total time: 11.3019839 Average gaze: 0.016818428422619047
+Total duration in objects: 0.1016568
+Total duration outside objects: 11.200327100000013
+Average duration in objects: 0.0112952
+Average duration outside objects: 0.016893404374057334
+{'A1_Painting': {'Tree': 0.050744899999999996, 'Building': 0.0690109}}
+
+Image: C2_Painting, Total time: 11.3019839 Average gaze: 0.016818428422619047
+Total duration in objects: 0.0891363
+Total duration outside objects: 11.212847600000012
+Average duration in objects: 0.0111420375
+Average duration outside objects: 0.016886818674698812
+{'C2_Painting': {'Human head': 0.0891363, 'Hat': 0.0891363}}
 
 Image: D2_Painting, Total time: 8.68921101 Average gaze: 0.01817826571129707
 Total duration in objects: 7.963431410000002
@@ -1092,8 +1092,8 @@ Average duration in objects: 0.0114307
 Average duration outside objects: 0.011430159999999998
 {'B4_Painting': {'Person': 0.0114307}}
 
-Participant: 24, Average time: 5.920271334210526
-Most viewed by participant: {'C6_Painting': {'Object': 'Person', 'Duration': 0.9172832}, 'B3_Painting': {'Object': 'Person', 'Duration': 1.3776255}, 'B2_Painting': {'Object': 'Person', 'Duration': 6.362424499999992}, 'D3_Painting': {'Object': 'Human hair', 'Duration': 6.727250199999996}, 'C5_Painting': {'Object': 'Person', 'Duration': 0.08061659999999998}, 'C4_Painting': {'Object': 'Person', 'Duration': 21.948569349999985}, 'B1_Painting': {'Object': 'Person', 'Duration': 0.4380105000000001}, 'A1_Painting': {'Object': 'Building', 'Duration': 0.0690109}, 'A2_Painting': {'Object': None, 'Duration': None}, 'C1_Painting': {'Object': None, 'Duration': None}, 'D1_Painting': {'Object': 'Person', 'Duration': 12.145696000000006}, 'A3_Painting': {'Object': 'Building', 'Duration': 7.1454630600000035}, 'B5_Painting': {'Object': None, 'Duration': None}, 'D4_Painting': {'Object': 'Person', 'Duration': 0.2247319}, 'C2_Painting': {'Object': None, 'Duration': None}, 'D2_Painting': {'Object': 'Human head', 'Duration': 7.734041410000002}, 'D5_Painting': {'Object': 'Person', 'Duration': 0.032279499999999996}, 'C3_Painting': {'Object': 'Human head', 'Duration': 0.0099096}, 'B4_Painting': {'Object': 'Person', 'Duration': 0.0114307}}
+Participant: 24, Average time: 6.484685965789474
+Most viewed by participant: {'C6_Painting': {'Object': 'Person', 'Duration': 0.9172832}, 'B3_Painting': {'Object': 'Person', 'Duration': 1.3776255}, 'B2_Painting': {'Object': 'Person', 'Duration': 6.362424499999992}, 'D3_Painting': {'Object': 'Human hair', 'Duration': 6.727250199999996}, 'C5_Painting': {'Object': 'Person', 'Duration': 0.08061659999999998}, 'C4_Painting': {'Object': 'Person', 'Duration': 21.948569349999985}, 'B1_Painting': {'Object': 'Person', 'Duration': 0.4380105000000001}, 'A2_Painting': {'Object': None, 'Duration': None}, 'C1_Painting': {'Object': None, 'Duration': None}, 'D1_Painting': {'Object': 'Person', 'Duration': 12.145696000000006}, 'A3_Painting': {'Object': 'Building', 'Duration': 7.1454630600000035}, 'B5_Painting': {'Object': None, 'Duration': None}, 'D4_Painting': {'Object': 'Person', 'Duration': 0.2247319}, 'A1_Painting': {'Object': 'Building', 'Duration': 0.0690109}, 'C2_Painting': {'Object': 'Human head', 'Duration': 0.0891363}, 'D2_Painting': {'Object': 'Human head', 'Duration': 7.734041410000002}, 'D5_Painting': {'Object': 'Person', 'Duration': 0.032279499999999996}, 'C3_Painting': {'Object': 'Human head', 'Duration': 0.0099096}, 'B4_Painting': {'Object': 'Person', 'Duration': 0.0114307}}
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Participant: 31
 Image: C6_Painting, Total time: 21.23369456 Average gaze: 0.0503168117535545
@@ -1145,13 +1145,6 @@ Average duration in objects: 0.02344136648769575
 Average duration outside objects: 0.01210143
 {'B1_Painting': {'Human hair': 1.9784192999999999, 'Human head': 5.376385319999997, 'Person': 10.47829082, 'Human eye': 0.2815207, 'Human mouth': 0.3261965, 'Human hand': 0.26929609}}
 
-Image: A1_Painting, Total time: 29.63809371 Average gaze: 0.024214128848039217
-Total duration in objects: 6.462843709999996
-Total duration outside objects: 23.175249999999984
-Average duration in objects: 0.03020020425233643
-Average duration outside objects: 0.022945792079207904
-{'A1_Painting': {'Tree': 0.8386578, 'Building': 6.128935599999996, 'Animal': 1.1128399300000003, 'Person': 0.0522554}}
-
 Image: A2_Painting, Total time: 6.540939509999999 Average gaze: 0.024965417977099235
 Total duration in objects: 5.0699738100000005
 Total duration outside objects: 1.4709657
@@ -1194,6 +1187,13 @@ Average duration in objects: 0.02934945925333335
 Average duration outside objects: 0.021900719078014174
 {'D4_Painting': {'Human head': 7.757046510000002, 'Human hair': 3.1647206000000008, 'Person': 11.006047220000006, 'Human eye': 0.7012896900000002, 'Human mouth': 1.0237892000000002, 'Human hand': 0.8771661000000001}}
 
+Image: A1_Painting, Total time: 29.63809371 Average gaze: 0.024214128848039217
+Total duration in objects: 6.462843709999996
+Total duration outside objects: 23.175249999999984
+Average duration in objects: 0.03020020425233643
+Average duration outside objects: 0.022945792079207904
+{'A1_Painting': {'Tree': 0.8386578, 'Building': 6.128935599999996, 'Animal': 1.1128399300000003, 'Person': 0.0522554}}
+
 Image: C2_Painting, Total time: 10.25654741 Average gaze: 0.040380107913385824
 Total duration in objects: 8.098810209999998
 Total duration outside objects: 2.157737200000001
@@ -1230,7 +1230,7 @@ Average duration outside objects: 0.019240566666666667
 {'B4_Painting': {'Person': 11.443596699999995, 'Human head': 4.686664189999997, 'Human eye': 0.1374008, 'Human mouth': 0.18914979999999998, 'Human hand': 0.0091846}}
 
 Participant: 31, Average time: 17.628296621578944
-Most viewed by participant: {'C6_Painting': {'Object': 'Person', 'Duration': 21.224600459999998}, 'B3_Painting': {'Object': 'Person', 'Duration': 12.712407939999988}, 'B2_Painting': {'Object': 'Person', 'Duration': 14.37980151}, 'D3_Painting': {'Object': 'Human hair', 'Duration': 8.733326909999999}, 'C5_Painting': {'Object': 'Person', 'Duration': 8.18079102}, 'C4_Painting': {'Object': 'Person', 'Duration': 35.36204653000004}, 'B1_Painting': {'Object': 'Person', 'Duration': 10.47829082}, 'A1_Painting': {'Object': 'Building', 'Duration': 6.128935599999996}, 'A2_Painting': {'Object': 'Human head', 'Duration': 5.0699738100000005}, 'C1_Painting': {'Object': 'Hat', 'Duration': 6.591957510000002}, 'D1_Painting': {'Object': 'Person', 'Duration': 14.767075970000008}, 'A3_Painting': {'Object': 'Building', 'Duration': 9.42201259000001}, 'B5_Painting': {'Object': 'Person', 'Duration': 19.334973529999974}, 'D4_Painting': {'Object': 'Person', 'Duration': 11.006047220000006}, 'C2_Painting': {'Object': 'Human head', 'Duration': 8.098810209999998}, 'D2_Painting': {'Object': 'Human head', 'Duration': 32.403695510000055}, 'D5_Painting': {'Object': 'Person', 'Duration': 26.129347020000026}, 'C3_Painting': {'Object': 'Human head', 'Duration': 10.825625859999992}, 'B4_Painting': {'Object': 'Person', 'Duration': 11.443596699999995}}
+Most viewed by participant: {'C6_Painting': {'Object': 'Person', 'Duration': 21.224600459999998}, 'B3_Painting': {'Object': 'Person', 'Duration': 12.712407939999988}, 'B2_Painting': {'Object': 'Person', 'Duration': 14.37980151}, 'D3_Painting': {'Object': 'Human hair', 'Duration': 8.733326909999999}, 'C5_Painting': {'Object': 'Person', 'Duration': 8.18079102}, 'C4_Painting': {'Object': 'Person', 'Duration': 35.36204653000004}, 'B1_Painting': {'Object': 'Person', 'Duration': 10.47829082}, 'A2_Painting': {'Object': 'Human head', 'Duration': 5.0699738100000005}, 'C1_Painting': {'Object': 'Hat', 'Duration': 6.591957510000002}, 'D1_Painting': {'Object': 'Person', 'Duration': 14.767075970000008}, 'A3_Painting': {'Object': 'Building', 'Duration': 9.42201259000001}, 'B5_Painting': {'Object': 'Person', 'Duration': 19.334973529999974}, 'D4_Painting': {'Object': 'Person', 'Duration': 11.006047220000006}, 'A1_Painting': {'Object': 'Building', 'Duration': 6.128935599999996}, 'C2_Painting': {'Object': 'Human head', 'Duration': 8.098810209999998}, 'D2_Painting': {'Object': 'Human head', 'Duration': 32.403695510000055}, 'D5_Painting': {'Object': 'Person', 'Duration': 26.129347020000026}, 'C3_Painting': {'Object': 'Human head', 'Duration': 10.825625859999992}, 'B4_Painting': {'Object': 'Person', 'Duration': 11.443596699999995}}
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Participant: 1
 Image: C6_Painting, Total time: 40.79873352 Average gaze: 0.03017657804733728
@@ -1282,13 +1282,6 @@ Average duration in objects: 0.015446838913934429
 Average duration outside objects: 0.010667874074074076
 {'B1_Painting': {'Person': 7.538057390000001, 'Human head': 0.6378031999999999, 'Human hand': 1.8594096900000012}}
 
-Image: A1_Painting, Total time: 72.79106252 Average gaze: 0.035664410837824595
-Total duration in objects: 1.9568267
-Total duration outside objects: 70.83423581999976
-Average duration in objects: 0.047727480487804876
-Average duration outside objects: 0.03541711790999988
-{'A1_Painting': {'Building': 0.29110620000000004, 'Tree': 0.062699, 'Animal': 0.9023935999999999, 'Person': 1.1211279}}
-
 Image: A2_Painting, Total time: 2.1070765 Average gaze: 0.011328368279569892
 Total duration in objects: 0.48010480000000016
 Total duration outside objects: 1.6269717000000004
@@ -1331,6 +1324,13 @@ Average duration in objects: 0.021710870893743833
 Average duration outside objects: 0.030371135726257006
 {'D4_Painting': {'Person': 21.86284699000004, 'Human head': 3.5949252099999973, 'Human hair': 0.28660919999999995, 'Human eye': 0.0791611, 'Human mouth': 1.0228400100000004, 'Human hand': 0.84288221}}
 
+Image: A1_Painting, Total time: 72.79106252 Average gaze: 0.035664410837824595
+Total duration in objects: 1.9568267
+Total duration outside objects: 70.83423581999976
+Average duration in objects: 0.047727480487804876
+Average duration outside objects: 0.03541711790999988
+{'A1_Painting': {'Building': 0.29110620000000004, 'Tree': 0.062699, 'Animal': 0.9023935999999999, 'Person': 1.1211279}}
+
 Image: C2_Painting, Total time: 11.88302999 Average gaze: 0.018366352380216385
 Total duration in objects: 2.36263519
 Total duration outside objects: 9.520394800000004
@@ -1366,8 +1366,8 @@ Average duration in objects: 0.022441735190380736
 Average duration outside objects: 0.012837208695652172
 {'B4_Painting': {'Person': 22.396851719999976, 'Human head': 1.2901154999999997, 'Human mouth': 0.0728512, 'Human hand': 0.9346742}}
 
-Participant: 1, Average time: 33.64716743263158
-Most viewed by participant: {'C6_Painting': {'Object': 'Person', 'Duration': 40.57668351999998}, 'B3_Painting': {'Object': 'Person', 'Duration': 13.38773198999999}, 'B2_Painting': {'Object': 'Person', 'Duration': 31.18506218000004}, 'D3_Painting': {'Object': 'Human hair', 'Duration': 34.29885982}, 'C5_Painting': {'Object': 'Person', 'Duration': 25.197793780000016}, 'C4_Painting': {'Object': 'Person', 'Duration': 44.491962800000046}, 'B1_Painting': {'Object': 'Person', 'Duration': 7.538057390000001}, 'A1_Painting': {'Object': 'Person', 'Duration': 1.1211279}, 'A2_Painting': {'Object': 'Human head', 'Duration': 0.48010480000000016}, 'C1_Painting': {'Object': 'Human head', 'Duration': 2.6595748999999995}, 'D1_Painting': {'Object': 'Person', 'Duration': 34.54426725}, 'A3_Painting': {'Object': 'Building', 'Duration': 28.111099400000036}, 'B5_Painting': {'Object': 'Person', 'Duration': 48.20227209000009}, 'D4_Painting': {'Object': 'Person', 'Duration': 21.86284699000004}, 'C2_Painting': {'Object': 'Human head', 'Duration': 2.36263519}, 'D2_Painting': {'Object': 'Human head', 'Duration': 22.841485669999972}, 'D5_Painting': {'Object': 'Person', 'Duration': 36.250489870000045}, 'C3_Painting': {'Object': 'Human head', 'Duration': 4.7551302}, 'B4_Painting': {'Object': 'Person', 'Duration': 22.396851719999976}}
+Participant: 1, Average time: 33.647167432631576
+Most viewed by participant: {'C6_Painting': {'Object': 'Person', 'Duration': 40.57668351999998}, 'B3_Painting': {'Object': 'Person', 'Duration': 13.38773198999999}, 'B2_Painting': {'Object': 'Person', 'Duration': 31.18506218000004}, 'D3_Painting': {'Object': 'Human hair', 'Duration': 34.29885982}, 'C5_Painting': {'Object': 'Person', 'Duration': 25.197793780000016}, 'C4_Painting': {'Object': 'Person', 'Duration': 44.491962800000046}, 'B1_Painting': {'Object': 'Person', 'Duration': 7.538057390000001}, 'A2_Painting': {'Object': 'Human head', 'Duration': 0.48010480000000016}, 'C1_Painting': {'Object': 'Human head', 'Duration': 2.6595748999999995}, 'D1_Painting': {'Object': 'Person', 'Duration': 34.54426725}, 'A3_Painting': {'Object': 'Building', 'Duration': 28.111099400000036}, 'B5_Painting': {'Object': 'Person', 'Duration': 48.20227209000009}, 'D4_Painting': {'Object': 'Person', 'Duration': 21.86284699000004}, 'A1_Painting': {'Object': 'Person', 'Duration': 1.1211279}, 'C2_Painting': {'Object': 'Human head', 'Duration': 2.36263519}, 'D2_Painting': {'Object': 'Human head', 'Duration': 22.841485669999972}, 'D5_Painting': {'Object': 'Person', 'Duration': 36.250489870000045}, 'C3_Painting': {'Object': 'Human head', 'Duration': 4.7551302}, 'B4_Painting': {'Object': 'Person', 'Duration': 22.396851719999976}}
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Participant: 6
 Image: C6_Painting, Total time: 2.5790663 Average gaze: 0.012580811219512196
@@ -1419,13 +1419,6 @@ Average duration in objects: 0.014015799159802311
 Average duration outside objects: 0.01384301266666667
 {'B1_Painting': {'Human hair': 0.4777903000000001, 'Human head': 0.8902536999999998, 'Person': 8.507590090000003, 'Human hand': 1.200051}}
 
-Image: A1_Painting, Total time: 4.4160549 Average gaze: 0.012800159130434781
-Total duration in objects: 0.3893649000000001
-Total duration outside objects: 4.026690000000001
-Average duration in objects: 0.011451908823529415
-Average duration outside objects: 0.012947556270096467
-{'A1_Painting': {'Building': 0.4964293000000002, 'Tree': 0.0209984}}
-
 Image: A2_Painting, Total time: 6.4234072 Average gaze: 0.015330327446300715
 Total duration in objects: 1.0103247000000004
 Total duration outside objects: 5.413082500000003
@@ -1468,6 +1461,13 @@ Average duration in objects: 0.02826173188725493
 Average duration outside objects: 0.019475883161290317
 {'D4_Painting': {'Person': 23.061573220000025, 'Human head': 12.366175829999989, 'Human hair': 10.529895719999992, 'Human eye': 0.7297557000000001, 'Human mouth': 0.22264990999999998, 'Human hand': 1.0685968}}
 
+Image: A1_Painting, Total time: 4.4160549 Average gaze: 0.012800159130434781
+Total duration in objects: 0.3893649000000001
+Total duration outside objects: 4.026690000000001
+Average duration in objects: 0.011451908823529415
+Average duration outside objects: 0.012947556270096467
+{'A1_Painting': {'Building': 0.4964293000000002, 'Tree': 0.0209984}}
+
 Image: C2_Painting, Total time: 3.1168023000000002 Average gaze: 0.014984626442307693
 Total duration in objects: 0.12561129999999998
 Total duration outside objects: 2.991190999999999
@@ -1504,7 +1504,7 @@ Average duration outside objects: 0.011670449999999999
 {'B4_Painting': {'Person': 2.4202830000000013, 'Human head': 0.47861869999999995, 'Human eye': 0.00948}}
 
 Participant: 6, Average time: 6.884861299473683
-Most viewed by participant: {'C6_Painting': {'Object': 'Person', 'Duration': 2.385930700000001}, 'B3_Painting': {'Object': 'Person', 'Duration': 9.536329700000005}, 'B2_Painting': {'Object': 'Person', 'Duration': 4.4418640000000025}, 'D3_Painting': {'Object': 'Human hair', 'Duration': 10.749169369999997}, 'C5_Painting': {'Object': 'Person', 'Duration': 1.6268764999999998}, 'C4_Painting': {'Object': 'Person', 'Duration': 10.81676736999999}, 'B1_Painting': {'Object': 'Person', 'Duration': 8.507590090000003}, 'A1_Painting': {'Object': 'Building', 'Duration': 0.4964293000000002}, 'A2_Painting': {'Object': 'Human head', 'Duration': 1.0103247000000004}, 'C1_Painting': {'Object': 'Hat', 'Duration': 0.0108848}, 'D1_Painting': {'Object': 'Person', 'Duration': 3.0298860999999992}, 'A3_Painting': {'Object': 'Building', 'Duration': 3.705056600000003}, 'B5_Painting': {'Object': 'Person', 'Duration': 0.1310791}, 'D4_Painting': {'Object': 'Person', 'Duration': 23.061573220000025}, 'C2_Painting': {'Object': 'Human head', 'Duration': 0.12561129999999998}, 'D2_Painting': {'Object': 'Human head', 'Duration': 13.119645339999991}, 'D5_Painting': {'Object': 'Person', 'Duration': 4.967066600000002}, 'C3_Painting': {'Object': 'Human hair', 'Duration': 0.12817220000000001}, 'B4_Painting': {'Object': 'Person', 'Duration': 2.4202830000000013}}
+Most viewed by participant: {'C6_Painting': {'Object': 'Person', 'Duration': 2.385930700000001}, 'B3_Painting': {'Object': 'Person', 'Duration': 9.536329700000005}, 'B2_Painting': {'Object': 'Person', 'Duration': 4.4418640000000025}, 'D3_Painting': {'Object': 'Human hair', 'Duration': 10.749169369999997}, 'C5_Painting': {'Object': 'Person', 'Duration': 1.6268764999999998}, 'C4_Painting': {'Object': 'Person', 'Duration': 10.81676736999999}, 'B1_Painting': {'Object': 'Person', 'Duration': 8.507590090000003}, 'A2_Painting': {'Object': 'Human head', 'Duration': 1.0103247000000004}, 'C1_Painting': {'Object': 'Hat', 'Duration': 0.0108848}, 'D1_Painting': {'Object': 'Person', 'Duration': 3.0298860999999992}, 'A3_Painting': {'Object': 'Building', 'Duration': 3.705056600000003}, 'B5_Painting': {'Object': 'Person', 'Duration': 0.1310791}, 'D4_Painting': {'Object': 'Person', 'Duration': 23.061573220000025}, 'A1_Painting': {'Object': 'Building', 'Duration': 0.4964293000000002}, 'C2_Painting': {'Object': 'Human head', 'Duration': 0.12561129999999998}, 'D2_Painting': {'Object': 'Human head', 'Duration': 13.119645339999991}, 'D5_Painting': {'Object': 'Person', 'Duration': 4.967066600000002}, 'C3_Painting': {'Object': 'Human hair', 'Duration': 0.12817220000000001}, 'B4_Painting': {'Object': 'Person', 'Duration': 2.4202830000000013}}
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Participant: 12
 Image: C6_Painting, Total time: 14.736149600000001 Average gaze: 0.02249793832061069
@@ -1556,13 +1556,6 @@ Average duration in objects: 0.01645571009174312
 Average duration outside objects: 0.013503848051948054
 {'B1_Painting': {'Human hair': 0.067516, 'Human head': 0.1987059, 'Person': 1.7936723999999997, 'Human eye': 0.0111022}}
 
-Image: A1_Painting, Total time: 16.4918081 Average gaze: 0.017848277164502165
-Total duration in objects: 1.170384
-Total duration outside objects: 15.3214241
-Average duration in objects: 0.013769223529411765
-Average duration outside objects: 0.0182615305125149
-{'A1_Painting': {'Building': 1.5117399999999988, 'Tree': 0.055735999999999994, 'Animal': 0.1981094, 'Person': 0.0104443}}
-
 Image: A2_Painting, Total time: 13.73331932 Average gaze: 0.018046411721419183
 Total duration in objects: 0.6430395000000004
 Total duration outside objects: 13.090279820000005
@@ -1605,6 +1598,13 @@ Average duration in objects: 0.015688575757575752
 Average duration outside objects: 0.01806862820512821
 {'D4_Painting': {'Human head': 0.4838965, 'Human hair': 0.4725991, 'Person': 1.5531689999999996, 'Human hand': 0.0111346}}
 
+Image: A1_Painting, Total time: 16.4918081 Average gaze: 0.017848277164502165
+Total duration in objects: 1.170384
+Total duration outside objects: 15.3214241
+Average duration in objects: 0.013769223529411765
+Average duration outside objects: 0.0182615305125149
+{'A1_Painting': {'Building': 1.5117399999999988, 'Tree': 0.055735999999999994, 'Animal': 0.1981094, 'Person': 0.0104443}}
+
 Image: C2_Painting, Total time: 2.0210317000000004 Average gaze: 0.011615124712643681
 Total duration in objects: 0.0093531
 Total duration outside objects: 2.0116785999999984
@@ -1641,7 +1641,7 @@ Average duration outside objects: 0.02433467641891892
 {'B4_Painting': {'Human head': 2.7347582999999993, 'Person': 5.807836210000001, 'Human eye': 0.0111787, 'Human mouth': 0.0085238, 'Human hand': 0.0348696}}
 
 Participant: 12, Average time: 8.870292881578948
-Most viewed by participant: {'C6_Painting': {'Object': 'Person', 'Duration': 11.542038000000007}, 'B3_Painting': {'Object': 'Person', 'Duration': 1.9473975000000006}, 'B2_Painting': {'Object': 'Person', 'Duration': 9.399610290000007}, 'D3_Painting': {'Object': 'Human hair', 'Duration': 16.25222431}, 'C5_Painting': {'Object': 'Person', 'Duration': 0.2040953}, 'C4_Painting': {'Object': 'Person', 'Duration': 16.114121419999975}, 'B1_Painting': {'Object': 'Person', 'Duration': 1.7936723999999997}, 'A1_Painting': {'Object': 'Building', 'Duration': 1.5117399999999988}, 'A2_Painting': {'Object': 'Human head', 'Duration': 0.6430395000000004}, 'C1_Painting': {'Object': 'Hat', 'Duration': 0.1276525}, 'D1_Painting': {'Object': 'Person', 'Duration': 1.9130560999999995}, 'A3_Painting': {'Object': 'Building', 'Duration': 11.893582289999994}, 'B5_Painting': {'Object': 'Person', 'Duration': 1.2860537999999997}, 'D4_Painting': {'Object': 'Person', 'Duration': 1.5531689999999996}, 'C2_Painting': {'Object': 'Human head', 'Duration': 0.0093531}, 'D2_Painting': {'Object': 'Human head', 'Duration': 2.6450722000000013}, 'D5_Painting': {'Object': 'Person', 'Duration': 2.0023135900000004}, 'C3_Painting': {'Object': 'Human head', 'Duration': 0.0222557}, 'B4_Painting': {'Object': 'Person', 'Duration': 5.807836210000001}}
+Most viewed by participant: {'C6_Painting': {'Object': 'Person', 'Duration': 11.542038000000007}, 'B3_Painting': {'Object': 'Person', 'Duration': 1.9473975000000006}, 'B2_Painting': {'Object': 'Person', 'Duration': 9.399610290000007}, 'D3_Painting': {'Object': 'Human hair', 'Duration': 16.25222431}, 'C5_Painting': {'Object': 'Person', 'Duration': 0.2040953}, 'C4_Painting': {'Object': 'Person', 'Duration': 16.114121419999975}, 'B1_Painting': {'Object': 'Person', 'Duration': 1.7936723999999997}, 'A2_Painting': {'Object': 'Human head', 'Duration': 0.6430395000000004}, 'C1_Painting': {'Object': 'Hat', 'Duration': 0.1276525}, 'D1_Painting': {'Object': 'Person', 'Duration': 1.9130560999999995}, 'A3_Painting': {'Object': 'Building', 'Duration': 11.893582289999994}, 'B5_Painting': {'Object': 'Person', 'Duration': 1.2860537999999997}, 'D4_Painting': {'Object': 'Person', 'Duration': 1.5531689999999996}, 'A1_Painting': {'Object': 'Building', 'Duration': 1.5117399999999988}, 'C2_Painting': {'Object': 'Human head', 'Duration': 0.0093531}, 'D2_Painting': {'Object': 'Human head', 'Duration': 2.6450722000000013}, 'D5_Painting': {'Object': 'Person', 'Duration': 2.0023135900000004}, 'C3_Painting': {'Object': 'Human head', 'Duration': 0.0222557}, 'B4_Painting': {'Object': 'Person', 'Duration': 5.807836210000001}}
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Participant: 15
 Image: C6_Painting, Total time: 9.03037803 Average gaze: 0.024945795662983425
@@ -1693,13 +1693,6 @@ Average duration in objects: 0.014028052173913036
 Average duration outside objects: 0.010815757142857143
 {'B1_Painting': {'Human hair': 0.0645627, 'Human head': 0.3268728, 'Person': 1.935871199999999, 'Human eye': 0.0094291, 'Human hand': 0.19417009999999998}}
 
-Image: A1_Painting, Total time: 21.7187835 Average gaze: 0.026714370848708487
-Total duration in objects: 3.97453462
-Total duration outside objects: 17.74424888000002
-Average duration in objects: 0.03257815262295082
-Average duration outside objects: 0.02567908665701884
-{'A1_Painting': {'Building': 3.6025744199999994, 'Tree': 0.4946859, 'Animal': 0.6413618999999999, 'Person': 0.21732980000000002}}
-
 Image: A2_Painting, Total time: 10.302461599999999 Average gaze: 0.03239767798742138
 Total duration in objects: 9.190206499999997
 Total duration outside objects: 1.1122551
@@ -1742,6 +1735,13 @@ Average duration in objects: 0.025371263875739663
 Average duration outside objects: 0.025727082347826072
 {'D4_Painting': {'Person': 8.575487190000006, 'Human head': 4.9907957900000035, 'Human hair': 3.3486291900000005, 'Human eye': 0.8070706899999999, 'Human mouth': 0.1553791, 'Human hand': 0.12224090000000001}}
 
+Image: A1_Painting, Total time: 21.7187835 Average gaze: 0.026714370848708487
+Total duration in objects: 3.97453462
+Total duration outside objects: 17.74424888000002
+Average duration in objects: 0.03257815262295082
+Average duration outside objects: 0.02567908665701884
+{'A1_Painting': {'Building': 3.6025744199999994, 'Tree': 0.4946859, 'Animal': 0.6413618999999999, 'Person': 0.21732980000000002}}
+
 Image: C2_Painting, Total time: 5.971938079999999 Average gaze: 0.02140479598566308
 Total duration in objects: 2.9481409799999994
 Total duration outside objects: 3.023797099999999
@@ -1778,7 +1778,7 @@ Average duration outside objects: 0.01605296
 {'B4_Painting': {'Person': 9.22319402, 'Human head': 4.380828110000001, 'Human eye': 0.0097547, 'Human mouth': 0.0101074, 'Human hand': 0.276179}}
 
 Participant: 15, Average time: 11.01766978
-Most viewed by participant: {'C6_Painting': {'Object': 'Person', 'Duration': 8.567822619999996}, 'B3_Painting': {'Object': 'Person', 'Duration': 10.338858580000004}, 'B2_Painting': {'Object': 'Person', 'Duration': 7.113588619999996}, 'D3_Painting': {'Object': 'Human hair', 'Duration': 15.158247529999995}, 'C5_Painting': {'Object': 'Person', 'Duration': 8.568093390000007}, 'C4_Painting': {'Object': 'Person', 'Duration': 8.042840820000002}, 'B1_Painting': {'Object': 'Person', 'Duration': 1.935871199999999}, 'A1_Painting': {'Object': 'Building', 'Duration': 3.6025744199999994}, 'A2_Painting': {'Object': 'Human head', 'Duration': 9.190206499999997}, 'C1_Painting': {'Object': 'Hat', 'Duration': 3.3396017}, 'D1_Painting': {'Object': 'Person', 'Duration': 17.01856201}, 'A3_Painting': {'Object': 'Person', 'Duration': 3.4768981000000005}, 'B5_Painting': {'Object': 'Person', 'Duration': 4.1418891}, 'D4_Painting': {'Object': 'Person', 'Duration': 8.575487190000006}, 'C2_Painting': {'Object': 'Human head', 'Duration': 2.9481409799999994}, 'D2_Painting': {'Object': 'Human head', 'Duration': 18.357326499999996}, 'D5_Painting': {'Object': 'Person', 'Duration': 7.8598857099999995}, 'C3_Painting': {'Object': 'Human head', 'Duration': 6.153905290000002}, 'B4_Painting': {'Object': 'Person', 'Duration': 9.22319402}}
+Most viewed by participant: {'C6_Painting': {'Object': 'Person', 'Duration': 8.567822619999996}, 'B3_Painting': {'Object': 'Person', 'Duration': 10.338858580000004}, 'B2_Painting': {'Object': 'Person', 'Duration': 7.113588619999996}, 'D3_Painting': {'Object': 'Human hair', 'Duration': 15.158247529999995}, 'C5_Painting': {'Object': 'Person', 'Duration': 8.568093390000007}, 'C4_Painting': {'Object': 'Person', 'Duration': 8.042840820000002}, 'B1_Painting': {'Object': 'Person', 'Duration': 1.935871199999999}, 'A2_Painting': {'Object': 'Human head', 'Duration': 9.190206499999997}, 'C1_Painting': {'Object': 'Hat', 'Duration': 3.3396017}, 'D1_Painting': {'Object': 'Person', 'Duration': 17.01856201}, 'A3_Painting': {'Object': 'Person', 'Duration': 3.4768981000000005}, 'B5_Painting': {'Object': 'Person', 'Duration': 4.1418891}, 'D4_Painting': {'Object': 'Person', 'Duration': 8.575487190000006}, 'A1_Painting': {'Object': 'Building', 'Duration': 3.6025744199999994}, 'C2_Painting': {'Object': 'Human head', 'Duration': 2.9481409799999994}, 'D2_Painting': {'Object': 'Human head', 'Duration': 18.357326499999996}, 'D5_Painting': {'Object': 'Person', 'Duration': 7.8598857099999995}, 'C3_Painting': {'Object': 'Human head', 'Duration': 6.153905290000002}, 'B4_Painting': {'Object': 'Person', 'Duration': 9.22319402}}
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Participant: 18
 Image: C6_Painting, Total time: 2.9877845 Average gaze: 0.014503808252427185
@@ -1830,13 +1830,6 @@ Average duration in objects: 0.011108382432432432
 Average duration outside objects: 0.016663976666666663
 {'B1_Painting': {'Person': 0.8220202999999999, 'Human hair': 0.044465, 'Human head': 0.076823, 'Human hand': 0.0794297}}
 
-Image: A1_Painting, Total time: 32.49894191 Average gaze: 0.018329916474901297
-Total duration in objects: 8.65919726999999
-Total duration outside objects: 23.83974464000004
-Average duration in objects: 0.022787361236842076
-Average duration outside objects: 0.01711395882268488
-{'A1_Painting': {'Tree': 0.6595727, 'Building': 11.047854549999975, 'Animal': 0.1771218, 'Person': 0.0906383}}
-
 Image: A2_Painting, Total time: 4.4455039 Average gaze: 0.014623368092105264
 Total duration in objects: 0.0631474
 Total duration outside objects: 4.382356499999996
@@ -1879,6 +1872,13 @@ Average duration in objects: 0.011848784172661869
 Average duration outside objects: 0.016011283936170212
 {'D4_Painting': {'Person': 1.6469809999999998, 'Human head': 0.14910100000000004, 'Human hair': 0.13816280000000003, 'Human eye': 0.0090616}}
 
+Image: A1_Painting, Total time: 32.49894191 Average gaze: 0.018329916474901297
+Total duration in objects: 8.65919726999999
+Total duration outside objects: 23.83974464000004
+Average duration in objects: 0.022787361236842076
+Average duration outside objects: 0.01711395882268488
+{'A1_Painting': {'Tree': 0.6595727, 'Building': 11.047854549999975, 'Animal': 0.1771218, 'Person': 0.0906383}}
+
 Image: C2_Painting, Total time: 5.1787806 Average gaze: 0.015321836094674555
 Total duration in objects: 0.0332234
 Total duration outside objects: 5.145557200000004
@@ -1915,7 +1915,7 @@ Average duration outside objects: 0.011685142156862746
 {'B4_Painting': {'Person': 2.4182680999999993, 'Human head': 0.4177709, 'Human hand': 0.2154353}}
 
 Participant: 18, Average time: 6.598877662105264
-Most viewed by participant: {'C6_Painting': {'Object': 'Person', 'Duration': 0.9655533}, 'B3_Painting': {'Object': 'Person', 'Duration': 0.7536071999999999}, 'B2_Painting': {'Object': 'Person', 'Duration': 8.642959300000003}, 'D3_Painting': {'Object': 'Human hair', 'Duration': 7.798004299999999}, 'C5_Painting': {'Object': 'Person', 'Duration': 0.17214469999999998}, 'C4_Painting': {'Object': 'Person', 'Duration': 3.535250600000001}, 'B1_Painting': {'Object': 'Person', 'Duration': 0.8220202999999999}, 'A1_Painting': {'Object': 'Building', 'Duration': 11.047854549999975}, 'A2_Painting': {'Object': 'Human head', 'Duration': 0.0631474}, 'C1_Painting': {'Object': 'Hat', 'Duration': 0.0605316}, 'D1_Painting': {'Object': 'Person', 'Duration': 11.697997990000005}, 'A3_Painting': {'Object': 'Building', 'Duration': 7.026518199999996}, 'B5_Painting': {'Object': 'Person', 'Duration': 1.2225081}, 'D4_Painting': {'Object': 'Person', 'Duration': 1.6469809999999998}, 'C2_Painting': {'Object': 'Human head', 'Duration': 0.0332234}, 'D2_Painting': {'Object': 'Human head', 'Duration': 5.255754910000004}, 'D5_Painting': {'Object': 'Person', 'Duration': 1.1063693999999997}, 'C3_Painting': {'Object': 'Human head', 'Duration': 0.8984302000000002}, 'B4_Painting': {'Object': 'Person', 'Duration': 2.4182680999999993}}
+Most viewed by participant: {'C6_Painting': {'Object': 'Person', 'Duration': 0.9655533}, 'B3_Painting': {'Object': 'Person', 'Duration': 0.7536071999999999}, 'B2_Painting': {'Object': 'Person', 'Duration': 8.642959300000003}, 'D3_Painting': {'Object': 'Human hair', 'Duration': 7.798004299999999}, 'C5_Painting': {'Object': 'Person', 'Duration': 0.17214469999999998}, 'C4_Painting': {'Object': 'Person', 'Duration': 3.535250600000001}, 'B1_Painting': {'Object': 'Person', 'Duration': 0.8220202999999999}, 'A2_Painting': {'Object': 'Human head', 'Duration': 0.0631474}, 'C1_Painting': {'Object': 'Hat', 'Duration': 0.0605316}, 'D1_Painting': {'Object': 'Person', 'Duration': 11.697997990000005}, 'A3_Painting': {'Object': 'Building', 'Duration': 7.026518199999996}, 'B5_Painting': {'Object': 'Person', 'Duration': 1.2225081}, 'D4_Painting': {'Object': 'Person', 'Duration': 1.6469809999999998}, 'A1_Painting': {'Object': 'Building', 'Duration': 11.047854549999975}, 'C2_Painting': {'Object': 'Human head', 'Duration': 0.0332234}, 'D2_Painting': {'Object': 'Human head', 'Duration': 5.255754910000004}, 'D5_Painting': {'Object': 'Person', 'Duration': 1.1063693999999997}, 'C3_Painting': {'Object': 'Human head', 'Duration': 0.8984302000000002}, 'B4_Painting': {'Object': 'Person', 'Duration': 2.4182680999999993}}
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Participant: 29
 Image: C6_Painting, Total time: 34.23640293 Average gaze: 0.03778852420529801
@@ -1967,13 +1967,6 @@ Average duration in objects: 0.02820306740890687
 Average duration outside objects: 0.0142600375
 {'B1_Painting': {'Person': 13.932315299999994, 'Human eye': 0.0085224, 'Human hair': 0.07645450000000001, 'Human head': 2.8973749, 'Human mouth': 0.052650699999999995, 'Human hand': 3.4669592999999996}}
 
-Image: A1_Painting, Total time: 32.42178157 Average gaze: 0.03692685828018223
-Total duration in objects: 5.8586053899999975
-Total duration outside objects: 26.563176179999992
-Average duration in objects: 0.04404966458646615
-Average duration outside objects: 0.035655270040268444
-{'A1_Painting': {'Tree': 0.052843, 'Building': 5.685308099999996, 'Animal': 0.8512128, 'Person': 0.3951332}}
-
 Image: A2_Painting, Total time: 5.7358189 Average gaze: 0.020055310839160838
 Total duration in objects: 4.582136100000004
 Total duration outside objects: 1.1536827999999997
@@ -2016,6 +2009,13 @@ Average duration in objects: 0.01602648488372094
 Average duration outside objects: 0.014187598484848489
 {'D4_Painting': {'Person': 2.756555400000002, 'Human head': 0.8908109999999999, 'Human hair': 0.2192837, 'Human eye': 0.0180168, 'Human mouth': 0.34850591000000003, 'Human hand': 0.041972999999999996}}
 
+Image: A1_Painting, Total time: 32.42178157 Average gaze: 0.03692685828018223
+Total duration in objects: 5.8586053899999975
+Total duration outside objects: 26.563176179999992
+Average duration in objects: 0.04404966458646615
+Average duration outside objects: 0.035655270040268444
+{'A1_Painting': {'Tree': 0.052843, 'Building': 5.685308099999996, 'Animal': 0.8512128, 'Person': 0.3951332}}
+
 Image: C2_Painting, Total time: 5.63423972 Average gaze: 0.019099117694915256
 Total duration in objects: 2.03481811
 Total duration outside objects: 3.599421609999998
@@ -2052,7 +2052,7 @@ Average duration outside objects: 0.0100016
 {'B4_Painting': {'Human head': 4.108399189999999, 'Person': 9.870397869999994, 'Human mouth': 0.814115, 'Human hand': 0.40692429}}
 
 Participant: 29, Average time: 15.401951973684211
-Most viewed by participant: {'C6_Painting': {'Object': 'Person', 'Duration': 34.148157430000005}, 'B3_Painting': {'Object': 'Person', 'Duration': 15.168290900000024}, 'B2_Painting': {'Object': 'Person', 'Duration': 20.036874320000003}, 'D3_Painting': {'Object': 'Human hair', 'Duration': 10.901617159999997}, 'C5_Painting': {'Object': 'Person', 'Duration': 13.118012080000003}, 'C4_Painting': {'Object': 'Person', 'Duration': 15.770513850000002}, 'B1_Painting': {'Object': 'Person', 'Duration': 13.932315299999994}, 'A1_Painting': {'Object': 'Building', 'Duration': 5.685308099999996}, 'A2_Painting': {'Object': 'Human head', 'Duration': 4.582136100000004}, 'C1_Painting': {'Object': 'Human head', 'Duration': 0.5400662999999998}, 'D1_Painting': {'Object': 'Person', 'Duration': 14.298932389999997}, 'A3_Painting': {'Object': 'Building', 'Duration': 11.162261349999996}, 'B5_Painting': {'Object': 'Person', 'Duration': 37.305915230000025}, 'D4_Painting': {'Object': 'Person', 'Duration': 2.756555400000002}, 'C2_Painting': {'Object': 'Human head', 'Duration': 2.03481811}, 'D2_Painting': {'Object': 'Human head', 'Duration': 15.224445499999996}, 'D5_Painting': {'Object': 'Person', 'Duration': 13.3064741}, 'C3_Painting': {'Object': 'Human head', 'Duration': 1.7547529000000006}, 'B4_Painting': {'Object': 'Person', 'Duration': 9.870397869999994}}
+Most viewed by participant: {'C6_Painting': {'Object': 'Person', 'Duration': 34.148157430000005}, 'B3_Painting': {'Object': 'Person', 'Duration': 15.168290900000024}, 'B2_Painting': {'Object': 'Person', 'Duration': 20.036874320000003}, 'D3_Painting': {'Object': 'Human hair', 'Duration': 10.901617159999997}, 'C5_Painting': {'Object': 'Person', 'Duration': 13.118012080000003}, 'C4_Painting': {'Object': 'Person', 'Duration': 15.770513850000002}, 'B1_Painting': {'Object': 'Person', 'Duration': 13.932315299999994}, 'A2_Painting': {'Object': 'Human head', 'Duration': 4.582136100000004}, 'C1_Painting': {'Object': 'Human head', 'Duration': 0.5400662999999998}, 'D1_Painting': {'Object': 'Person', 'Duration': 14.298932389999997}, 'A3_Painting': {'Object': 'Building', 'Duration': 11.162261349999996}, 'B5_Painting': {'Object': 'Person', 'Duration': 37.305915230000025}, 'D4_Painting': {'Object': 'Person', 'Duration': 2.756555400000002}, 'A1_Painting': {'Object': 'Building', 'Duration': 5.685308099999996}, 'C2_Painting': {'Object': 'Human head', 'Duration': 2.03481811}, 'D2_Painting': {'Object': 'Human head', 'Duration': 15.224445499999996}, 'D5_Painting': {'Object': 'Person', 'Duration': 13.3064741}, 'C3_Painting': {'Object': 'Human head', 'Duration': 1.7547529000000006}, 'B4_Painting': {'Object': 'Person', 'Duration': 9.870397869999994}}
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Participant: 19
 Image: C6_Painting, Total time: 19.19276288 Average gaze: 0.04494792243559719
@@ -2104,13 +2104,6 @@ Average duration in objects: 0.03354435856907894
 Average duration outside objects: 0.014678513043478262
 {'B1_Painting': {'Person': 20.394970009999994, 'Human head': 3.4795954900000017, 'Human hair': 0.32909590000000005, 'Human eye': 0.08666969999999999, 'Human mouth': 0.19426921000000003, 'Human hand': 1.1004132000000002}}
 
-Image: A1_Painting, Total time: 14.812381479999999 Average gaze: 0.03004539853955375
-Total duration in objects: 4.518140110000001
-Total duration outside objects: 10.294241370000002
-Average duration in objects: 0.03765116758333334
-Average duration outside objects: 0.027598502332439684
-{'A1_Painting': {'Tree': 0.5186033000000001, 'Building': 4.441637410000001, 'Animal': 0.1352557, 'Person': 0.0229301}}
-
 Image: A2_Painting, Total time: 12.89345621 Average gaze: 0.01947651995468278
 Total duration in objects: 5.703864900000006
 Total duration outside objects: 7.189591310000001
@@ -2153,6 +2146,13 @@ Average duration in objects: 0.02920418994889269
 Average duration outside objects: 0.03502931160305343
 {'D4_Painting': {'Human head': 10.145322790000002, 'Human hair': 5.0076637800000015, 'Person': 17.142859500000007, 'Human eye': 1.5520800900000002, 'Human mouth': 0.4148906, 'Human hand': 1.3158592899999995}}
 
+Image: A1_Painting, Total time: 14.812381479999999 Average gaze: 0.03004539853955375
+Total duration in objects: 4.518140110000001
+Total duration outside objects: 10.294241370000002
+Average duration in objects: 0.03765116758333334
+Average duration outside objects: 0.027598502332439684
+{'A1_Painting': {'Tree': 0.5186033000000001, 'Building': 4.441637410000001, 'Animal': 0.1352557, 'Person': 0.0229301}}
+
 Image: C2_Painting, Total time: 15.36587279 Average gaze: 0.030731745579999997
 Total duration in objects: 4.368063700000003
 Total duration outside objects: 10.997809089999995
@@ -2189,7 +2189,7 @@ Average duration outside objects: 0.029852774366197182
 {'B4_Painting': {'Human head': 3.742957700000002, 'Person': 9.309878400000006, 'Human eye': 0.0374194, 'Human hand': 0.2468695}}
 
 Participant: 19, Average time: 21.808618839473684
-Most viewed by participant: {'C6_Painting': {'Object': 'Person', 'Duration': 18.77253348}, 'B3_Painting': {'Object': 'Person', 'Duration': 9.55470039999999}, 'B2_Painting': {'Object': 'Person', 'Duration': 13.450584500000005}, 'D3_Painting': {'Object': 'Human hair', 'Duration': 10.478954380000001}, 'C5_Painting': {'Object': 'Person', 'Duration': 18.64146655000002}, 'C4_Painting': {'Object': 'Person', 'Duration': 13.445630040000008}, 'B1_Painting': {'Object': 'Person', 'Duration': 20.394970009999994}, 'A1_Painting': {'Object': 'Building', 'Duration': 4.441637410000001}, 'A2_Painting': {'Object': 'Human head', 'Duration': 5.703864900000006}, 'C1_Painting': {'Object': 'Hat', 'Duration': 4.108006600000001}, 'D1_Painting': {'Object': 'Person', 'Duration': 24.323199999999996}, 'A3_Painting': {'Object': 'Building', 'Duration': 105.23407827000005}, 'B5_Painting': {'Object': 'Person', 'Duration': 17.89397458000005}, 'D4_Painting': {'Object': 'Person', 'Duration': 17.142859500000007}, 'C2_Painting': {'Object': 'Human head', 'Duration': 4.368063700000003}, 'D2_Painting': {'Object': 'Human head', 'Duration': 22.90288298}, 'D5_Painting': {'Object': 'Person', 'Duration': 4.4029679}, 'C3_Painting': {'Object': 'Human head', 'Duration': 4.018898010000002}, 'B4_Painting': {'Object': 'Person', 'Duration': 9.309878400000006}}
+Most viewed by participant: {'C6_Painting': {'Object': 'Person', 'Duration': 18.77253348}, 'B3_Painting': {'Object': 'Person', 'Duration': 9.55470039999999}, 'B2_Painting': {'Object': 'Person', 'Duration': 13.450584500000005}, 'D3_Painting': {'Object': 'Human hair', 'Duration': 10.478954380000001}, 'C5_Painting': {'Object': 'Person', 'Duration': 18.64146655000002}, 'C4_Painting': {'Object': 'Person', 'Duration': 13.445630040000008}, 'B1_Painting': {'Object': 'Person', 'Duration': 20.394970009999994}, 'A2_Painting': {'Object': 'Human head', 'Duration': 5.703864900000006}, 'C1_Painting': {'Object': 'Hat', 'Duration': 4.108006600000001}, 'D1_Painting': {'Object': 'Person', 'Duration': 24.323199999999996}, 'A3_Painting': {'Object': 'Building', 'Duration': 105.23407827000005}, 'B5_Painting': {'Object': 'Person', 'Duration': 17.89397458000005}, 'D4_Painting': {'Object': 'Person', 'Duration': 17.142859500000007}, 'A1_Painting': {'Object': 'Building', 'Duration': 4.441637410000001}, 'C2_Painting': {'Object': 'Human head', 'Duration': 4.368063700000003}, 'D2_Painting': {'Object': 'Human head', 'Duration': 22.90288298}, 'D5_Painting': {'Object': 'Person', 'Duration': 4.4029679}, 'C3_Painting': {'Object': 'Human head', 'Duration': 4.018898010000002}, 'B4_Painting': {'Object': 'Person', 'Duration': 9.309878400000006}}
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Participant: 28
 Image: C6_Painting, Total time: 0.7442458999999999 Average gaze: 0.011449936923076921
@@ -2241,13 +2241,6 @@ Average duration in objects: 0.028364556811145473
 Average duration outside objects: 0.015818304545454548
 {'B1_Painting': {'Person': 27.485255549999962, 'Human hair': 4.0371907899999995, 'Human head': 10.677110880000004, 'Human eye': 0.9379374, 'Human mouth': 0.5585803, 'Human hand': 2.05469749}}
 
-Image: A1_Painting, Total time: 3.175712 Average gaze: 0.012909398373983739
-Total duration in objects: 0.5466251999999999
-Total duration outside objects: 2.6290868
-Average duration in objects: 0.014773654054054052
-Average duration outside objects: 0.012579362679425837
-{'A1_Painting': {'Building': 0.7681625999999998, 'Tree': 0.055423299999999995}}
-
 Image: A2_Painting, Total time: 2.9222170000000003 Average gaze: 0.01212538174273859
 Total duration in objects: 0.9398845999999997
 Total duration outside objects: 1.9823324000000004
@@ -2290,6 +2283,13 @@ Average duration in objects: 0.016271940325379628
 Average duration outside objects: 0.013356301136363635
 {'D4_Painting': {'Person': 7.501364490000008, 'Human head': 5.265725690000005, 'Human hair': 4.739540190000004, 'Human eye': 0.48126720000000006, 'Human mouth': 0.0111435, 'Human hand': 0.0112945}}
 
+Image: A1_Painting, Total time: 3.175712 Average gaze: 0.012909398373983739
+Total duration in objects: 0.5466251999999999
+Total duration outside objects: 2.6290868
+Average duration in objects: 0.014773654054054052
+Average duration outside objects: 0.012579362679425837
+{'A1_Painting': {'Building': 0.7681625999999998, 'Tree': 0.055423299999999995}}
+
 Image: C2_Painting, Total time: 9.314437300000002 Average gaze: 0.020471290769230772
 Total duration in objects: 3.3701061099999996
 Total duration outside objects: 5.944331189999994
@@ -2326,7 +2326,7 @@ Average duration outside objects: 0.012942671751412426
 {'B4_Painting': {'Person': 2.9603234999999977, 'Human head': 1.0359258, 'Human eye': 0.022099}}
 
 Participant: 28, Average time: 12.119126382105264
-Most viewed by participant: {'C6_Painting': {'Object': 'Person', 'Duration': 0.2409829}, 'B3_Painting': {'Object': 'Person', 'Duration': 8.551594389999996}, 'B2_Painting': {'Object': 'Person', 'Duration': 5.301877309999997}, 'D3_Painting': {'Object': 'Human hair', 'Duration': 13.246612499999992}, 'C5_Painting': {'Object': None, 'Duration': None}, 'C4_Painting': {'Object': 'Person', 'Duration': 0.44394420000000007}, 'B1_Painting': {'Object': 'Person', 'Duration': 27.485255549999962}, 'A1_Painting': {'Object': 'Building', 'Duration': 0.7681625999999998}, 'A2_Painting': {'Object': 'Human head', 'Duration': 0.9398845999999997}, 'C1_Painting': {'Object': 'Hat', 'Duration': 7.919545990000001}, 'D1_Painting': {'Object': 'Person', 'Duration': 4.152711799999997}, 'A3_Painting': {'Object': 'Building', 'Duration': 31.53114738000004}, 'B5_Painting': {'Object': 'Person', 'Duration': 0.21585820000000006}, 'D4_Painting': {'Object': 'Person', 'Duration': 7.501364490000008}, 'C2_Painting': {'Object': 'Human head', 'Duration': 3.3701061099999996}, 'D2_Painting': {'Object': 'Human head', 'Duration': 15.07048472}, 'D5_Painting': {'Object': 'Person', 'Duration': 7.34330261}, 'C3_Painting': {'Object': 'Human head', 'Duration': 8.190617989999994}, 'B4_Painting': {'Object': 'Person', 'Duration': 2.9603234999999977}}
+Most viewed by participant: {'C6_Painting': {'Object': 'Person', 'Duration': 0.2409829}, 'B3_Painting': {'Object': 'Person', 'Duration': 8.551594389999996}, 'B2_Painting': {'Object': 'Person', 'Duration': 5.301877309999997}, 'D3_Painting': {'Object': 'Human hair', 'Duration': 13.246612499999992}, 'C5_Painting': {'Object': None, 'Duration': None}, 'C4_Painting': {'Object': 'Person', 'Duration': 0.44394420000000007}, 'B1_Painting': {'Object': 'Person', 'Duration': 27.485255549999962}, 'A2_Painting': {'Object': 'Human head', 'Duration': 0.9398845999999997}, 'C1_Painting': {'Object': 'Hat', 'Duration': 7.919545990000001}, 'D1_Painting': {'Object': 'Person', 'Duration': 4.152711799999997}, 'A3_Painting': {'Object': 'Building', 'Duration': 31.53114738000004}, 'B5_Painting': {'Object': 'Person', 'Duration': 0.21585820000000006}, 'D4_Painting': {'Object': 'Person', 'Duration': 7.501364490000008}, 'A1_Painting': {'Object': 'Building', 'Duration': 0.7681625999999998}, 'C2_Painting': {'Object': 'Human head', 'Duration': 3.3701061099999996}, 'D2_Painting': {'Object': 'Human head', 'Duration': 15.07048472}, 'D5_Painting': {'Object': 'Person', 'Duration': 7.34330261}, 'C3_Painting': {'Object': 'Human head', 'Duration': 8.190617989999994}, 'B4_Painting': {'Object': 'Person', 'Duration': 2.9603234999999977}}
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Participant: 8
 Image: C6_Painting, Total time: 29.21865745 Average gaze: 0.024227742495854063
@@ -2378,13 +2378,6 @@ Average duration in objects: 0.017820635310344845
 Average duration outside objects: 0.013799158773784353
 {'B1_Painting': {'Person': 41.34387392000004, 'Human hair': 2.7138210999999997, 'Human head': 4.695757400000004, 'Human eye': 0.07000719999999999, 'Human mouth': 0.1013286, 'Human hand': 2.766472200000001}}
 
-Image: A1_Painting, Total time: 35.73184767 Average gaze: 0.024110558481781376
-Total duration in objects: 3.1722492000000018
-Total duration outside objects: 32.559598470000005
-Average duration in objects: 0.02007752658227849
-Average duration outside objects: 0.024591841744712996
-{'A1_Painting': {'Tree': 0.8866689999999999, 'Building': 2.9720734000000015, 'Animal': 0.11739240000000001, 'Person': 0.0525338}}
-
 Image: A2_Painting, Total time: 16.02961316 Average gaze: 0.01872618359813084
 Total duration in objects: 9.28526536000001
 Total duration outside objects: 6.744347800000006
@@ -2427,6 +2420,13 @@ Average duration in objects: 0.015623671046770595
 Average duration outside objects: 0.018954088124999997
 {'D4_Painting': {'Person': 7.015028299999997, 'Human head': 4.848664399999998, 'Human hair': 4.613612699999999, 'Human eye': 0.15536599999999998, 'Human hand': 0.14766600000000002}}
 
+Image: A1_Painting, Total time: 35.73184767 Average gaze: 0.024110558481781376
+Total duration in objects: 3.1722492000000018
+Total duration outside objects: 32.559598470000005
+Average duration in objects: 0.02007752658227849
+Average duration outside objects: 0.024591841744712996
+{'A1_Painting': {'Tree': 0.8866689999999999, 'Building': 2.9720734000000015, 'Animal': 0.11739240000000001, 'Person': 0.0525338}}
+
 Image: C2_Painting, Total time: 8.3228509 Average gaze: 0.014783038898756661
 Total duration in objects: 0.0556385
 Total duration outside objects: 8.267212399999993
@@ -2462,8 +2462,8 @@ Average duration in objects: 0.01536193340757239
 Average duration outside objects: 0.014878533526011551
 {'B4_Painting': {'Person': 6.897508100000003, 'Human head': 0.8804809999999996, 'Human eye': 0.031232999999999997, 'Human mouth': 0.052699499999999996, 'Human hand': 0.186239}}
 
-Participant: 8, Average time: 22.613806234736835
-Most viewed by participant: {'C6_Painting': {'Object': 'Person', 'Duration': 26.09105514999996}, 'B3_Painting': {'Object': 'Person', 'Duration': 13.344107200000009}, 'B2_Painting': {'Object': 'Person', 'Duration': 27.155561610000053}, 'D3_Painting': {'Object': 'Human hair', 'Duration': 24.953725989999967}, 'C5_Painting': {'Object': 'Person', 'Duration': 16.857236009999987}, 'C4_Painting': {'Object': 'Person', 'Duration': 14.536868980000019}, 'B1_Painting': {'Object': 'Person', 'Duration': 41.34387392000004}, 'A1_Painting': {'Object': 'Building', 'Duration': 2.9720734000000015}, 'A2_Painting': {'Object': 'Human head', 'Duration': 9.28526536000001}, 'C1_Painting': {'Object': 'Human head', 'Duration': 0.24043589999999998}, 'D1_Painting': {'Object': 'Person', 'Duration': 13.36414040999999}, 'A3_Painting': {'Object': 'Building', 'Duration': 19.640589090000002}, 'B5_Painting': {'Object': 'Building', 'Duration': 3.835587499999999}, 'D4_Painting': {'Object': 'Person', 'Duration': 7.015028299999997}, 'C2_Painting': {'Object': 'Human head', 'Duration': 0.0556385}, 'D2_Painting': {'Object': 'Human head', 'Duration': 18.725343529999996}, 'D5_Painting': {'Object': 'Person', 'Duration': 18.462331610000007}, 'C3_Painting': {'Object': 'Human head', 'Duration': 0.3729509}, 'B4_Painting': {'Object': 'Person', 'Duration': 6.897508100000003}}
+Participant: 8, Average time: 22.613806234736842
+Most viewed by participant: {'C6_Painting': {'Object': 'Person', 'Duration': 26.09105514999996}, 'B3_Painting': {'Object': 'Person', 'Duration': 13.344107200000009}, 'B2_Painting': {'Object': 'Person', 'Duration': 27.155561610000053}, 'D3_Painting': {'Object': 'Human hair', 'Duration': 24.953725989999967}, 'C5_Painting': {'Object': 'Person', 'Duration': 16.857236009999987}, 'C4_Painting': {'Object': 'Person', 'Duration': 14.536868980000019}, 'B1_Painting': {'Object': 'Person', 'Duration': 41.34387392000004}, 'A2_Painting': {'Object': 'Human head', 'Duration': 9.28526536000001}, 'C1_Painting': {'Object': 'Human head', 'Duration': 0.24043589999999998}, 'D1_Painting': {'Object': 'Person', 'Duration': 13.36414040999999}, 'A3_Painting': {'Object': 'Building', 'Duration': 19.640589090000002}, 'B5_Painting': {'Object': 'Building', 'Duration': 3.835587499999999}, 'D4_Painting': {'Object': 'Person', 'Duration': 7.015028299999997}, 'A1_Painting': {'Object': 'Building', 'Duration': 2.9720734000000015}, 'C2_Painting': {'Object': 'Human head', 'Duration': 0.0556385}, 'D2_Painting': {'Object': 'Human head', 'Duration': 18.725343529999996}, 'D5_Painting': {'Object': 'Person', 'Duration': 18.462331610000007}, 'C3_Painting': {'Object': 'Human head', 'Duration': 0.3729509}, 'B4_Painting': {'Object': 'Person', 'Duration': 6.897508100000003}}
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Participant: 9
 Image: C6_Painting, Total time: 24.167757979999998 Average gaze: 0.021753157497749774
@@ -2515,13 +2515,6 @@ Average duration in objects: 0.012694245059288524
 Average duration outside objects: 0.01159872142857143
 {'B1_Painting': {'Person': 3.2116439999999966, 'Human hair': 0.0729752, 'Human head': 0.5036489, 'Human mouth': 0.06811239999999999, 'Human hand': 0.3766035999999999}}
 
-Image: A1_Painting, Total time: 40.183215870000005 Average gaze: 0.031053489853168473
-Total duration in objects: 7.053621499999996
-Total duration outside objects: 33.12959437000001
-Average duration in objects: 0.042237254491017936
-Average duration outside objects: 0.02939626829636203
-{'A1_Painting': {'Tree': 0.63723679, 'Building': 6.98631382, 'Animal': 0.8666467, 'Person': 0.34095359000000003}}
-
 Image: A2_Painting, Total time: 2.8023100000000003 Average gaze: 0.014081959798994976
 Total duration in objects: 1.7460615000000002
 Total duration outside objects: 1.0562485000000001
@@ -2564,6 +2557,13 @@ Average duration in objects: 0.019306742311977723
 Average duration outside objects: 0.021306905426356586
 {'D4_Painting': {'Person': 13.862240980000005, 'Human head': 4.541779579999999, 'Human hair': 2.6470468900000013, 'Human eye': 0.15171220000000002, 'Human mouth': 0.25506589999999996, 'Human hand': 0.4701247999999999}}
 
+Image: A1_Painting, Total time: 40.183215870000005 Average gaze: 0.031053489853168473
+Total duration in objects: 7.053621499999996
+Total duration outside objects: 33.12959437000001
+Average duration in objects: 0.042237254491017936
+Average duration outside objects: 0.02939626829636203
+{'A1_Painting': {'Tree': 0.63723679, 'Building': 6.98631382, 'Animal': 0.8666467, 'Person': 0.34095359000000003}}
+
 Image: C2_Painting, Total time: 22.568069789999996 Average gaze: 0.03980259222222222
 Total duration in objects: 12.529582099999997
 Total duration outside objects: 10.038487689999997
@@ -2600,7 +2600,7 @@ Average duration outside objects: 0.013671475757575758
 {'B4_Painting': {'Person': 15.975320809999998, 'Human head': 3.003247099999998, 'Human eye': 0.0751994, 'Human mouth': 0.0869163, 'Human hand': 0.0223269}}
 
 Participant: 9, Average time: 18.047405150526316
-Most viewed by participant: {'C6_Painting': {'Object': 'Person', 'Duration': 24.01001658000001}, 'B3_Painting': {'Object': 'Person', 'Duration': 4.566951000000004}, 'B2_Painting': {'Object': 'Person', 'Duration': 6.0244349000000055}, 'D3_Painting': {'Object': 'Human hair', 'Duration': 10.825087810000001}, 'C5_Painting': {'Object': 'Person', 'Duration': 12.153325820000001}, 'C4_Painting': {'Object': 'Person', 'Duration': 8.725955479999996}, 'B1_Painting': {'Object': 'Person', 'Duration': 3.2116439999999966}, 'A1_Painting': {'Object': 'Building', 'Duration': 6.98631382}, 'A2_Painting': {'Object': 'Human head', 'Duration': 1.7460615000000002}, 'C1_Painting': {'Object': 'Hat', 'Duration': 0.9993468000000002}, 'D1_Painting': {'Object': 'Person', 'Duration': 9.217571710000001}, 'A3_Painting': {'Object': 'Building', 'Duration': 34.98996584000001}, 'B5_Painting': {'Object': 'Person', 'Duration': 5.289382300000004}, 'D4_Painting': {'Object': 'Person', 'Duration': 13.862240980000005}, 'C2_Painting': {'Object': 'Human head', 'Duration': 12.529582099999997}, 'D2_Painting': {'Object': 'Human head', 'Duration': 8.100604090000001}, 'D5_Painting': {'Object': 'Person', 'Duration': 17.85967438999999}, 'C3_Painting': {'Object': 'Human head', 'Duration': 14.018079610000012}, 'B4_Painting': {'Object': 'Person', 'Duration': 15.975320809999998}}
+Most viewed by participant: {'C6_Painting': {'Object': 'Person', 'Duration': 24.01001658000001}, 'B3_Painting': {'Object': 'Person', 'Duration': 4.566951000000004}, 'B2_Painting': {'Object': 'Person', 'Duration': 6.0244349000000055}, 'D3_Painting': {'Object': 'Human hair', 'Duration': 10.825087810000001}, 'C5_Painting': {'Object': 'Person', 'Duration': 12.153325820000001}, 'C4_Painting': {'Object': 'Person', 'Duration': 8.725955479999996}, 'B1_Painting': {'Object': 'Person', 'Duration': 3.2116439999999966}, 'A2_Painting': {'Object': 'Human head', 'Duration': 1.7460615000000002}, 'C1_Painting': {'Object': 'Hat', 'Duration': 0.9993468000000002}, 'D1_Painting': {'Object': 'Person', 'Duration': 9.217571710000001}, 'A3_Painting': {'Object': 'Building', 'Duration': 34.98996584000001}, 'B5_Painting': {'Object': 'Person', 'Duration': 5.289382300000004}, 'D4_Painting': {'Object': 'Person', 'Duration': 13.862240980000005}, 'A1_Painting': {'Object': 'Building', 'Duration': 6.98631382}, 'C2_Painting': {'Object': 'Human head', 'Duration': 12.529582099999997}, 'D2_Painting': {'Object': 'Human head', 'Duration': 8.100604090000001}, 'D5_Painting': {'Object': 'Person', 'Duration': 17.85967438999999}, 'C3_Painting': {'Object': 'Human head', 'Duration': 14.018079610000012}, 'B4_Painting': {'Object': 'Person', 'Duration': 15.975320809999998}}
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Participant: 26
 Image: C6_Painting, Total time: 3.9519433900000003 Average gaze: 0.019091513961352658
@@ -2652,13 +2652,6 @@ Average duration in objects: 0.016358796296296295
 Average duration outside objects: 0.01156957857142857
 {'B1_Painting': {'Human hair': 0.5673440000000001, 'Human head': 1.2334396, 'Person': 4.416874999999999, 'Human eye': 0.011051, 'Human mouth': 0.1991686, 'Human hand': 0.8878320999999999}}
 
-Image: A1_Painting, Total time: 5.86820729 Average gaze: 0.019114681726384364
-Total duration in objects: 0.41049840000000004
-Total duration outside objects: 5.457708890000001
-Average duration in objects: 0.013241883870967744
-Average duration outside objects: 0.019774307572463772
-{'A1_Painting': {'Tree': 0.1669036, 'Building': 0.2517324, 'Person': 0.0110331, 'Animal': 0.0109223}}
-
 Image: A2_Painting, Total time: 2.408669 Average gaze: 0.016165563758389262
 Total duration in objects: 1.9368446000000001
 Total duration outside objects: 0.4718244
@@ -2701,6 +2694,13 @@ Average duration in objects: 0.02863627909090909
 Average duration outside objects: 0.020246117777777774
 {'D4_Painting': {'Human head': 8.078187800000002, 'Human hair': 3.801854000000001, 'Person': 13.544960009999999, 'Human eye': 1.1774281999999998, 'Human mouth': 0.2603047}}
 
+Image: A1_Painting, Total time: 5.86820729 Average gaze: 0.019114681726384364
+Total duration in objects: 0.41049840000000004
+Total duration outside objects: 5.457708890000001
+Average duration in objects: 0.013241883870967744
+Average duration outside objects: 0.019774307572463772
+{'A1_Painting': {'Tree': 0.1669036, 'Building': 0.2517324, 'Person': 0.0110331, 'Animal': 0.0109223}}
+
 Image: C2_Painting, Total time: 2.00849399 Average gaze: 0.018770971869158878
 Total duration in objects: 0.4282896900000001
 Total duration outside objects: 1.5802043
@@ -2737,7 +2737,7 @@ Average duration outside objects: 0.01105500476190476
 {'B4_Painting': {'Person': 1.6056489, 'Human head': 0.9902763, 'Human eye': 0.1010949, 'Human mouth': 0.0125199, 'Human hand': 0.11065349999999999}}
 
 Participant: 26, Average time: 7.261360159999999
-Most viewed by participant: {'C6_Painting': {'Object': 'Person', 'Duration': 3.829981089999999}, 'B3_Painting': {'Object': 'Person', 'Duration': 13.636938919999997}, 'B2_Painting': {'Object': 'Person', 'Duration': 5.865044010000002}, 'D3_Painting': {'Object': 'Human hair', 'Duration': 11.07016008}, 'C5_Painting': {'Object': 'Person', 'Duration': 4.86826828}, 'C4_Painting': {'Object': 'Person', 'Duration': 30.871115609999947}, 'B1_Painting': {'Object': 'Person', 'Duration': 4.416874999999999}, 'A1_Painting': {'Object': 'Building', 'Duration': 0.2517324}, 'A2_Painting': {'Object': 'Human head', 'Duration': 1.9368446000000001}, 'C1_Painting': {'Object': 'Hat', 'Duration': 0.4777109999999999}, 'D1_Painting': {'Object': 'Person', 'Duration': 1.1344779999999999}, 'A3_Painting': {'Object': 'Building', 'Duration': 8.584918070000011}, 'B5_Painting': {'Object': 'Person', 'Duration': 10.968853799999996}, 'D4_Painting': {'Object': 'Person', 'Duration': 13.544960009999999}, 'C2_Painting': {'Object': 'Human head', 'Duration': 0.4282896900000001}, 'D2_Painting': {'Object': 'Human head', 'Duration': 2.897431200000001}, 'D5_Painting': {'Object': 'Person', 'Duration': 0.4838311}, 'C3_Painting': {'Object': 'Human head', 'Duration': 1.7426361999999997}, 'B4_Painting': {'Object': 'Person', 'Duration': 1.6056489}}
+Most viewed by participant: {'C6_Painting': {'Object': 'Person', 'Duration': 3.829981089999999}, 'B3_Painting': {'Object': 'Person', 'Duration': 13.636938919999997}, 'B2_Painting': {'Object': 'Person', 'Duration': 5.865044010000002}, 'D3_Painting': {'Object': 'Human hair', 'Duration': 11.07016008}, 'C5_Painting': {'Object': 'Person', 'Duration': 4.86826828}, 'C4_Painting': {'Object': 'Person', 'Duration': 30.871115609999947}, 'B1_Painting': {'Object': 'Person', 'Duration': 4.416874999999999}, 'A2_Painting': {'Object': 'Human head', 'Duration': 1.9368446000000001}, 'C1_Painting': {'Object': 'Hat', 'Duration': 0.4777109999999999}, 'D1_Painting': {'Object': 'Person', 'Duration': 1.1344779999999999}, 'A3_Painting': {'Object': 'Building', 'Duration': 8.584918070000011}, 'B5_Painting': {'Object': 'Person', 'Duration': 10.968853799999996}, 'D4_Painting': {'Object': 'Person', 'Duration': 13.544960009999999}, 'A1_Painting': {'Object': 'Building', 'Duration': 0.2517324}, 'C2_Painting': {'Object': 'Human head', 'Duration': 0.4282896900000001}, 'D2_Painting': {'Object': 'Human head', 'Duration': 2.897431200000001}, 'D5_Painting': {'Object': 'Person', 'Duration': 0.4838311}, 'C3_Painting': {'Object': 'Human head', 'Duration': 1.7426361999999997}, 'B4_Painting': {'Object': 'Person', 'Duration': 1.6056489}}
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Participant: 21
 Image: C6_Painting, Total time: 12.5132306 Average gaze: 0.017825114814814816
@@ -2789,13 +2789,6 @@ Average duration in objects: 0.0176965403488372
 Average duration outside objects: 0.015127332258064514
 {'B1_Painting': {'Human hair': 1.76906168, 'Human head': 2.0975183800000003, 'Person': 6.087609879999997, 'Human eye': 0.0103982, 'Human mouth': 0.0221456, 'Human hand': 0.3760107999999999}}
 
-Image: A1_Painting, Total time: 8.979288099999998 Average gaze: 0.01600586114081996
-Total duration in objects: 1.9112281
-Total duration outside objects: 7.068059999999998
-Average duration in objects: 0.018030453773584906
-Average duration outside objects: 0.015534197802197799
-{'A1_Painting': {'Tree': 0.2309144, 'Building': 2.1215315, 'Animal': 0.0864726, 'Person': 0.0333918}}
-
 Image: A2_Painting, Total time: 16.72113632 Average gaze: 0.02163148294954722
 Total duration in objects: 9.649511319999993
 Total duration outside objects: 7.071624999999996
@@ -2838,6 +2831,13 @@ Average duration in objects: 0.01693306822429906
 Average duration outside objects: 0.01961439213483146
 {'D4_Painting': {'Person': 1.8118382999999996, 'Human head': 1.4247709, 'Human hair': 1.2405547, 'Human eye': 0.0802314}}
 
+Image: A1_Painting, Total time: 8.979288099999998 Average gaze: 0.01600586114081996
+Total duration in objects: 1.9112281
+Total duration outside objects: 7.068059999999998
+Average duration in objects: 0.018030453773584906
+Average duration outside objects: 0.015534197802197799
+{'A1_Painting': {'Tree': 0.2309144, 'Building': 2.1215315, 'Animal': 0.0864726, 'Person': 0.0333918}}
+
 Image: C2_Painting, Total time: 16.542102489999998 Average gaze: 0.02297514234722222
 Total duration in objects: 0.6939746
 Total duration outside objects: 15.84812789000002
@@ -2874,7 +2874,7 @@ Average duration outside objects: 0.016667705602836876
 {'B4_Painting': {'Person': 29.318819569999974, 'Human head': 17.102927290000007, 'Human eye': 0.0820285, 'Human mouth': 0.18453930000000002, 'Human hand': 0.4107155000000001}}
 
 Participant: 21, Average time: 12.140953691052632
-Most viewed by participant: {'C6_Painting': {'Object': 'Person', 'Duration': 11.875368700000001}, 'B3_Painting': {'Object': 'Person', 'Duration': 6.759766899999995}, 'B2_Painting': {'Object': 'Person', 'Duration': 5.599184899999996}, 'D3_Painting': {'Object': 'Human hair', 'Duration': 17.79824629000001}, 'C5_Painting': {'Object': 'Person', 'Duration': 11.016273440000008}, 'C4_Painting': {'Object': 'Person', 'Duration': 8.23616481999999}, 'B1_Painting': {'Object': 'Person', 'Duration': 6.087609879999997}, 'A1_Painting': {'Object': 'Building', 'Duration': 2.1215315}, 'A2_Painting': {'Object': 'Human head', 'Duration': 9.649511319999993}, 'C1_Painting': {'Object': 'Hat', 'Duration': 0.2144851}, 'D1_Painting': {'Object': 'Person', 'Duration': 5.035541199999998}, 'A3_Painting': {'Object': 'Building', 'Duration': 11.49150620000002}, 'B5_Painting': {'Object': 'Person', 'Duration': 5.421570679999991}, 'D4_Painting': {'Object': 'Person', 'Duration': 1.8118382999999996}, 'C2_Painting': {'Object': 'Human head', 'Duration': 0.6939746}, 'D2_Painting': {'Object': 'Human head', 'Duration': 4.764497199999999}, 'D5_Painting': {'Object': 'Person', 'Duration': 14.598519109999996}, 'C3_Painting': {'Object': 'Human hair', 'Duration': 0.35146940000000004}, 'B4_Painting': {'Object': 'Person', 'Duration': 29.318819569999974}}
+Most viewed by participant: {'C6_Painting': {'Object': 'Person', 'Duration': 11.875368700000001}, 'B3_Painting': {'Object': 'Person', 'Duration': 6.759766899999995}, 'B2_Painting': {'Object': 'Person', 'Duration': 5.599184899999996}, 'D3_Painting': {'Object': 'Human hair', 'Duration': 17.79824629000001}, 'C5_Painting': {'Object': 'Person', 'Duration': 11.016273440000008}, 'C4_Painting': {'Object': 'Person', 'Duration': 8.23616481999999}, 'B1_Painting': {'Object': 'Person', 'Duration': 6.087609879999997}, 'A2_Painting': {'Object': 'Human head', 'Duration': 9.649511319999993}, 'C1_Painting': {'Object': 'Hat', 'Duration': 0.2144851}, 'D1_Painting': {'Object': 'Person', 'Duration': 5.035541199999998}, 'A3_Painting': {'Object': 'Building', 'Duration': 11.49150620000002}, 'B5_Painting': {'Object': 'Person', 'Duration': 5.421570679999991}, 'D4_Painting': {'Object': 'Person', 'Duration': 1.8118382999999996}, 'A1_Painting': {'Object': 'Building', 'Duration': 2.1215315}, 'C2_Painting': {'Object': 'Human head', 'Duration': 0.6939746}, 'D2_Painting': {'Object': 'Human head', 'Duration': 4.764497199999999}, 'D5_Painting': {'Object': 'Person', 'Duration': 14.598519109999996}, 'C3_Painting': {'Object': 'Human hair', 'Duration': 0.35146940000000004}, 'B4_Painting': {'Object': 'Person', 'Duration': 29.318819569999974}}
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Participant: 4
 Image: C6_Painting, Total time: 50.478886409999994 Average gaze: 0.029869163556213014
@@ -2926,13 +2926,6 @@ Average duration in objects: 0.01682203946086956
 Average duration outside objects: 0.016092998181818186
 {'B1_Painting': {'Person': 9.672672689999997, 'Human hair': 0.37458729999999996, 'Human head': 0.6411340999999999, 'Human eye': 0.0347905, 'Human hand': 0.46160710000000005}}
 
-Image: A1_Painting, Total time: 68.49936674 Average gaze: 0.029808253585726717
-Total duration in objects: 9.036645029999999
-Total duration outside objects: 59.46272171000006
-Average duration in objects: 0.03193160787985865
-Average duration outside objects: 0.02951003558808936
-{'A1_Painting': {'Building': 11.347826030000014, 'Tree': 0.9860714099999999, 'Animal': 0.86976661, 'Person': 0.13451840999999998}}
-
 Image: A2_Painting, Total time: 14.86056582 Average gaze: 0.020930374394366198
 Total duration in objects: 0.5934222
 Total duration outside objects: 14.267143620000002
@@ -2975,6 +2968,13 @@ Average duration in objects: 0.015866391256830602
 Average duration outside objects: 0.020184299999999995
 {'D4_Painting': {'Person': 2.9035496000000003, 'Human head': 1.2411004, 'Human hair': 1.0309618000000005, 'Human eye': 0.0106733, 'Human mouth': 0.0089818, 'Human hand': 0.0428484}}
 
+Image: A1_Painting, Total time: 68.49936674 Average gaze: 0.029808253585726717
+Total duration in objects: 9.036645029999999
+Total duration outside objects: 59.46272171000006
+Average duration in objects: 0.03193160787985865
+Average duration outside objects: 0.02951003558808936
+{'A1_Painting': {'Building': 11.347826030000014, 'Tree': 0.9860714099999999, 'Animal': 0.86976661, 'Person': 0.13451840999999998}}
+
 Image: C2_Painting, Total time: 5.5610408 Average gaze: 0.031960004597701146
 Total duration in objects: 0.09817360000000001
 Total duration outside objects: 5.462867200000002
@@ -3011,7 +3011,7 @@ Average duration outside objects: 0.01579112519083969
 {'B4_Painting': {'Human head': 5.557058700000003, 'Person': 20.98064461, 'Human eye': 0.0110187, 'Human mouth': 0.0780607, 'Human hand': 0.0112123}}
 
 Participant: 4, Average time: 23.142659956842106
-Most viewed by participant: {'C6_Painting': {'Object': 'Person', 'Duration': 46.07695530000004}, 'B3_Painting': {'Object': 'Person', 'Duration': 10.185314789999993}, 'B2_Painting': {'Object': 'Person', 'Duration': 19.5494043}, 'D3_Painting': {'Object': 'Human hair', 'Duration': 20.51744704}, 'C5_Painting': {'Object': 'Person', 'Duration': 23.812792780000002}, 'C4_Painting': {'Object': 'Person', 'Duration': 19.25851548000002}, 'B1_Painting': {'Object': 'Person', 'Duration': 9.672672689999997}, 'A1_Painting': {'Object': 'Building', 'Duration': 11.347826030000014}, 'A2_Painting': {'Object': 'Human head', 'Duration': 0.5934222}, 'C1_Painting': {'Object': 'Hat', 'Duration': 6.003133190000002}, 'D1_Painting': {'Object': 'Person', 'Duration': 4.99529621}, 'A3_Painting': {'Object': 'Building', 'Duration': 32.05464790999995}, 'B5_Painting': {'Object': 'Person', 'Duration': 1.4895313999999997}, 'D4_Painting': {'Object': 'Person', 'Duration': 2.9035496000000003}, 'C2_Painting': {'Object': 'Human head', 'Duration': 0.09817360000000001}, 'D2_Painting': {'Object': 'Human head', 'Duration': 11.979127700000001}, 'D5_Painting': {'Object': 'Person', 'Duration': 13.166077179999991}, 'C3_Painting': {'Object': 'Human head', 'Duration': 2.8670188000000008}, 'B4_Painting': {'Object': 'Person', 'Duration': 20.98064461}}
+Most viewed by participant: {'C6_Painting': {'Object': 'Person', 'Duration': 46.07695530000004}, 'B3_Painting': {'Object': 'Person', 'Duration': 10.185314789999993}, 'B2_Painting': {'Object': 'Person', 'Duration': 19.5494043}, 'D3_Painting': {'Object': 'Human hair', 'Duration': 20.51744704}, 'C5_Painting': {'Object': 'Person', 'Duration': 23.812792780000002}, 'C4_Painting': {'Object': 'Person', 'Duration': 19.25851548000002}, 'B1_Painting': {'Object': 'Person', 'Duration': 9.672672689999997}, 'A2_Painting': {'Object': 'Human head', 'Duration': 0.5934222}, 'C1_Painting': {'Object': 'Hat', 'Duration': 6.003133190000002}, 'D1_Painting': {'Object': 'Person', 'Duration': 4.99529621}, 'A3_Painting': {'Object': 'Building', 'Duration': 32.05464790999995}, 'B5_Painting': {'Object': 'Person', 'Duration': 1.4895313999999997}, 'D4_Painting': {'Object': 'Person', 'Duration': 2.9035496000000003}, 'A1_Painting': {'Object': 'Building', 'Duration': 11.347826030000014}, 'C2_Painting': {'Object': 'Human head', 'Duration': 0.09817360000000001}, 'D2_Painting': {'Object': 'Human head', 'Duration': 11.979127700000001}, 'D5_Painting': {'Object': 'Person', 'Duration': 13.166077179999991}, 'C3_Painting': {'Object': 'Human head', 'Duration': 2.8670188000000008}, 'B4_Painting': {'Object': 'Person', 'Duration': 20.98064461}}
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Participant: 3
 Image: C6_Painting, Total time: 17.71963368 Average gaze: 0.02786105924528302
@@ -3063,13 +3063,6 @@ Average duration in objects: 0.014972680278481018
 Average duration outside objects: 0.011434359523809523
 {'B1_Painting': {'Human hair': 0.7240872000000003, 'Human head': 1.7508574000000003, 'Person': 5.914208710000002, 'Human eye': 0.0098766, 'Human mouth': 0.1776523, 'Human hand': 0.1197964}}
 
-Image: A1_Painting, Total time: 24.908250510000002 Average gaze: 0.024540148285714287
-Total duration in objects: 4.6059870100000015
-Total duration outside objects: 20.302263499999995
-Average duration in objects: 0.03362034313868614
-Average duration outside objects: 0.023123306947608196
-{'A1_Painting': {'Tree': 1.1347416000000001, 'Building': 2.85115871, 'Animal': 1.2717816, 'Person': 0.4807740999999999}}
-
 Image: A2_Painting, Total time: 14.080078319999998 Average gaze: 0.019637487196652717
 Total duration in objects: 8.865323020000005
 Total duration outside objects: 5.214755300000002
@@ -3112,6 +3105,13 @@ Average duration in objects: 0.021754785320512844
 Average duration outside objects: 0.016505393396226413
 {'D4_Painting': {'Human head': 6.38412832, 'Human hair': 1.2175965999999998, 'Person': 13.574986040000015, 'Human eye': 0.16935669999999997, 'Human mouth': 1.2231897, 'Human hand': 0.45792750000000004}}
 
+Image: A1_Painting, Total time: 24.908250510000002 Average gaze: 0.024540148285714287
+Total duration in objects: 4.6059870100000015
+Total duration outside objects: 20.302263499999995
+Average duration in objects: 0.03362034313868614
+Average duration outside objects: 0.023123306947608196
+{'A1_Painting': {'Tree': 1.1347416000000001, 'Building': 2.85115871, 'Animal': 1.2717816, 'Person': 0.4807740999999999}}
+
 Image: C2_Painting, Total time: 2.9103414999999995 Average gaze: 0.014624831658291454
 Total duration in objects: 1.2677800999999993
 Total duration outside objects: 1.6425613999999997
@@ -3148,7 +3148,7 @@ Average duration outside objects: 0.010825987500000002
 {'B4_Painting': {'Person': 13.5187024, 'Human head': 2.515520989999999, 'Human eye': 0.1022793, 'Human mouth': 0.28861549999999997, 'Human hand': 0.4069692}}
 
 Participant: 3, Average time: 23.12383781894737
-Most viewed by participant: {'C6_Painting': {'Object': 'Person', 'Duration': 17.475071679999992}, 'B3_Painting': {'Object': 'Person', 'Duration': 9.371039500000004}, 'B2_Painting': {'Object': 'Person', 'Duration': 28.18146269000004}, 'D3_Painting': {'Object': 'Human hair', 'Duration': 22.03438842999999}, 'C5_Painting': {'Object': 'Person', 'Duration': 3.2295360999999994}, 'C4_Painting': {'Object': 'Person', 'Duration': 7.534921280000004}, 'B1_Painting': {'Object': 'Person', 'Duration': 5.914208710000002}, 'A1_Painting': {'Object': 'Building', 'Duration': 2.85115871}, 'A2_Painting': {'Object': 'Human head', 'Duration': 8.865323020000005}, 'C1_Painting': {'Object': 'Hat', 'Duration': 1.5170759900000006}, 'D1_Painting': {'Object': 'Person', 'Duration': 12.52629208}, 'A3_Painting': {'Object': 'Building', 'Duration': 25.908960820000015}, 'B5_Painting': {'Object': 'Person', 'Duration': 6.10984509}, 'D4_Painting': {'Object': 'Person', 'Duration': 13.574986040000015}, 'C2_Painting': {'Object': 'Human head', 'Duration': 1.2677800999999993}, 'D2_Painting': {'Object': 'Human head', 'Duration': 48.49993842999999}, 'D5_Painting': {'Object': 'Person', 'Duration': 34.87984469}, 'C3_Painting': {'Object': 'Human head', 'Duration': 4.47739759}, 'B4_Painting': {'Object': 'Person', 'Duration': 13.5187024}}
+Most viewed by participant: {'C6_Painting': {'Object': 'Person', 'Duration': 17.475071679999992}, 'B3_Painting': {'Object': 'Person', 'Duration': 9.371039500000004}, 'B2_Painting': {'Object': 'Person', 'Duration': 28.18146269000004}, 'D3_Painting': {'Object': 'Human hair', 'Duration': 22.03438842999999}, 'C5_Painting': {'Object': 'Person', 'Duration': 3.2295360999999994}, 'C4_Painting': {'Object': 'Person', 'Duration': 7.534921280000004}, 'B1_Painting': {'Object': 'Person', 'Duration': 5.914208710000002}, 'A2_Painting': {'Object': 'Human head', 'Duration': 8.865323020000005}, 'C1_Painting': {'Object': 'Hat', 'Duration': 1.5170759900000006}, 'D1_Painting': {'Object': 'Person', 'Duration': 12.52629208}, 'A3_Painting': {'Object': 'Building', 'Duration': 25.908960820000015}, 'B5_Painting': {'Object': 'Person', 'Duration': 6.10984509}, 'D4_Painting': {'Object': 'Person', 'Duration': 13.574986040000015}, 'A1_Painting': {'Object': 'Building', 'Duration': 2.85115871}, 'C2_Painting': {'Object': 'Human head', 'Duration': 1.2677800999999993}, 'D2_Painting': {'Object': 'Human head', 'Duration': 48.49993842999999}, 'D5_Painting': {'Object': 'Person', 'Duration': 34.87984469}, 'C3_Painting': {'Object': 'Human head', 'Duration': 4.47739759}, 'B4_Painting': {'Object': 'Person', 'Duration': 13.5187024}}
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Participant: 17
 Image: C6_Painting, Total time: 4.32183581 Average gaze: 0.015058661358885016
@@ -3200,13 +3200,6 @@ Average duration in objects: 0.013884706532663322
 Average duration outside objects: 0.011091919354838711
 {'B1_Painting': {'Human hair': 0.5208516, 'Human head': 0.9538044999999999, 'Person': 2.763056600000001, 'Human eye': 0.0442212, 'Human mouth': 0.0309145, 'Human hand': 0.1224094}}
 
-Image: A1_Painting, Total time: 17.45259676 Average gaze: 0.024006322916093534
-Total duration in objects: 4.606830499999999
-Total duration outside objects: 12.845766259999984
-Average duration in objects: 0.02386958808290155
-Average duration outside objects: 0.024055742059925063
-{'A1_Painting': {'Tree': 0.2191, 'Building': 5.268319899999998, 'Animal': 0.4534313, 'Person': 0.0111693}}
-
 Image: A2_Painting, Total time: 4.0656034000000005 Average gaze: 0.013875779522184302
 Total duration in objects: 1.2324031000000004
 Total duration outside objects: 2.8332002999999997
@@ -3249,6 +3242,13 @@ Average duration in objects: 0.012642859375000001
 Average duration outside objects: 0.01315886575342466
 {'D4_Painting': {'Human head': 0.7069784, 'Human hair': 0.47392969999999995, 'Person': 0.8091430000000001, 'Human eye': 0.07797180000000001, 'Human mouth': 0.0336349, 'Human hand': 0.0111858}}
 
+Image: A1_Painting, Total time: 17.45259676 Average gaze: 0.024006322916093534
+Total duration in objects: 4.606830499999999
+Total duration outside objects: 12.845766259999984
+Average duration in objects: 0.02386958808290155
+Average duration outside objects: 0.024055742059925063
+{'A1_Painting': {'Tree': 0.2191, 'Building': 5.268319899999998, 'Animal': 0.4534313, 'Person': 0.0111693}}
+
 Image: C2_Painting, Total time: 5.306692300000001 Average gaze: 0.016278197239263808
 Total duration in objects: 1.2516364000000004
 Total duration outside objects: 4.0550558999999975
@@ -3285,7 +3285,7 @@ Average duration outside objects: 0.011092648484848484
 {'B4_Painting': {'Person': 3.6356518100000037, 'Human head': 1.4012147100000003, 'Human eye': 0.0380698, 'Human mouth': 0.0418539, 'Human hand': 0.0553525}}
 
 Participant: 17, Average time: 4.4526619594736845
-Most viewed by participant: {'C6_Painting': {'Object': 'Person', 'Duration': 4.291419310000001}, 'B3_Painting': {'Object': 'Person', 'Duration': 1.5232677999999997}, 'B2_Painting': {'Object': 'Person', 'Duration': 3.221975900000001}, 'D3_Painting': {'Object': 'Human hair', 'Duration': 1.5515163}, 'C5_Painting': {'Object': 'Person', 'Duration': 0.9702720000000001}, 'C4_Painting': {'Object': 'Person', 'Duration': 5.114257980000002}, 'B1_Painting': {'Object': 'Person', 'Duration': 2.763056600000001}, 'A1_Painting': {'Object': 'Building', 'Duration': 5.268319899999998}, 'A2_Painting': {'Object': 'Human head', 'Duration': 1.2324031000000004}, 'C1_Painting': {'Object': 'Hat', 'Duration': 0.3445327}, 'D1_Painting': {'Object': 'Person', 'Duration': 2.0409835000000007}, 'A3_Painting': {'Object': 'Building', 'Duration': 6.228532920000001}, 'B5_Painting': {'Object': 'Person', 'Duration': 2.912421500000001}, 'D4_Painting': {'Object': 'Person', 'Duration': 0.8091430000000001}, 'C2_Painting': {'Object': 'Human head', 'Duration': 1.2516364000000004}, 'D2_Painting': {'Object': 'Human head', 'Duration': 3.119834709999998}, 'D5_Painting': {'Object': 'Person', 'Duration': 6.110904570000001}, 'C3_Painting': {'Object': 'Human head', 'Duration': 0.6855174}, 'B4_Painting': {'Object': 'Person', 'Duration': 3.6356518100000037}}
+Most viewed by participant: {'C6_Painting': {'Object': 'Person', 'Duration': 4.291419310000001}, 'B3_Painting': {'Object': 'Person', 'Duration': 1.5232677999999997}, 'B2_Painting': {'Object': 'Person', 'Duration': 3.221975900000001}, 'D3_Painting': {'Object': 'Human hair', 'Duration': 1.5515163}, 'C5_Painting': {'Object': 'Person', 'Duration': 0.9702720000000001}, 'C4_Painting': {'Object': 'Person', 'Duration': 5.114257980000002}, 'B1_Painting': {'Object': 'Person', 'Duration': 2.763056600000001}, 'A2_Painting': {'Object': 'Human head', 'Duration': 1.2324031000000004}, 'C1_Painting': {'Object': 'Hat', 'Duration': 0.3445327}, 'D1_Painting': {'Object': 'Person', 'Duration': 2.0409835000000007}, 'A3_Painting': {'Object': 'Building', 'Duration': 6.228532920000001}, 'B5_Painting': {'Object': 'Person', 'Duration': 2.912421500000001}, 'D4_Painting': {'Object': 'Person', 'Duration': 0.8091430000000001}, 'A1_Painting': {'Object': 'Building', 'Duration': 5.268319899999998}, 'C2_Painting': {'Object': 'Human head', 'Duration': 1.2516364000000004}, 'D2_Painting': {'Object': 'Human head', 'Duration': 3.119834709999998}, 'D5_Painting': {'Object': 'Person', 'Duration': 6.110904570000001}, 'C3_Painting': {'Object': 'Human head', 'Duration': 0.6855174}, 'B4_Painting': {'Object': 'Person', 'Duration': 3.6356518100000037}}
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Participant: 10
 Image: C6_Painting, Total time: 3.3967953 Average gaze: 0.016330746634615385
@@ -3337,13 +3337,6 @@ Average duration in objects: 0.013201296249999998
 Average duration outside objects: 0.010463339999999998
 {'B1_Painting': {'Human hair': 0.0222961, 'Human head': 0.1332162, 'Person': 1.0561036999999998, 'Human eye': 0.037662, 'Human mouth': 0.0111228, 'Human hand': 0.0117619}}
 
-Image: A1_Painting, Total time: 16.93061374 Average gaze: 0.021595170586734692
-Total duration in objects: 3.8493999200000015
-Total duration outside objects: 13.081213820000011
-Average duration in objects: 0.0267319438888889
-Average duration outside objects: 0.020439396593750016
-{'A1_Painting': {'Tree': 0.0906358, 'Building': 4.752273329999999, 'Animal': 0.29384059999999995, 'Person': 0.0503402}}
-
 Image: A2_Painting, Total time: 6.7581317 Average gaze: 0.020858431172839507
 Total duration in objects: 2.2545871999999996
 Total duration outside objects: 4.503544500000001
@@ -3386,6 +3379,13 @@ Average duration in objects: 0.016159626413043478
 Average duration outside objects: 0.01491051973094171
 {'D4_Painting': {'Person': 4.46005689, 'Human head': 2.970843890000001, 'Human hair': 2.426881990000001, 'Human eye': 0.0538046, 'Human mouth': 0.0725911, 'Human hand': 0.1325209}}
 
+Image: A1_Painting, Total time: 16.93061374 Average gaze: 0.021595170586734692
+Total duration in objects: 3.8493999200000015
+Total duration outside objects: 13.081213820000011
+Average duration in objects: 0.0267319438888889
+Average duration outside objects: 0.020439396593750016
+{'A1_Painting': {'Tree': 0.0906358, 'Building': 4.752273329999999, 'Animal': 0.29384059999999995, 'Person': 0.0503402}}
+
 Image: C2_Painting, Total time: 3.9704520899999998 Average gaze: 0.01985226045
 Total duration in objects: 0.0830717
 Total duration outside objects: 3.8873803899999997
@@ -3422,7 +3422,7 @@ Average duration outside objects: 0.020255000970873786
 {'B4_Painting': {'Human head': 3.143532099999998, 'Person': 8.335783700000006, 'Human eye': 0.0111257, 'Human mouth': 0.11536840000000001, 'Human hand': 0.2756087}}
 
 Participant: 10, Average time: 6.323210326315789
-Most viewed by participant: {'C6_Painting': {'Object': 'Person', 'Duration': 2.2365949999999986}, 'B3_Painting': {'Object': 'Person', 'Duration': 1.4275566000000002}, 'B2_Painting': {'Object': 'Person', 'Duration': 4.159194600000001}, 'D3_Painting': {'Object': 'Human hair', 'Duration': 4.268706410000001}, 'C5_Painting': {'Object': 'Person', 'Duration': 1.0945498000000005}, 'C4_Painting': {'Object': 'Person', 'Duration': 5.505708999999998}, 'B1_Painting': {'Object': 'Person', 'Duration': 1.0561036999999998}, 'A1_Painting': {'Object': 'Building', 'Duration': 4.752273329999999}, 'A2_Painting': {'Object': 'Human head', 'Duration': 2.2545871999999996}, 'C1_Painting': {'Object': 'Hat', 'Duration': 0.11324109999999998}, 'D1_Painting': {'Object': 'Person', 'Duration': 13.520913110000013}, 'A3_Painting': {'Object': 'Building', 'Duration': 6.741775980000002}, 'B5_Painting': {'Object': 'Person', 'Duration': 0.8679593999999999}, 'D4_Painting': {'Object': 'Person', 'Duration': 4.46005689}, 'C2_Painting': {'Object': 'Human head', 'Duration': 0.0830717}, 'D2_Painting': {'Object': 'Human head', 'Duration': 2.3136381999999993}, 'D5_Painting': {'Object': 'Person', 'Duration': 1.6128503000000007}, 'C3_Painting': {'Object': 'Human head', 'Duration': 0.1274532}, 'B4_Painting': {'Object': 'Person', 'Duration': 8.335783700000006}}
+Most viewed by participant: {'C6_Painting': {'Object': 'Person', 'Duration': 2.2365949999999986}, 'B3_Painting': {'Object': 'Person', 'Duration': 1.4275566000000002}, 'B2_Painting': {'Object': 'Person', 'Duration': 4.159194600000001}, 'D3_Painting': {'Object': 'Human hair', 'Duration': 4.268706410000001}, 'C5_Painting': {'Object': 'Person', 'Duration': 1.0945498000000005}, 'C4_Painting': {'Object': 'Person', 'Duration': 5.505708999999998}, 'B1_Painting': {'Object': 'Person', 'Duration': 1.0561036999999998}, 'A2_Painting': {'Object': 'Human head', 'Duration': 2.2545871999999996}, 'C1_Painting': {'Object': 'Hat', 'Duration': 0.11324109999999998}, 'D1_Painting': {'Object': 'Person', 'Duration': 13.520913110000013}, 'A3_Painting': {'Object': 'Building', 'Duration': 6.741775980000002}, 'B5_Painting': {'Object': 'Person', 'Duration': 0.8679593999999999}, 'D4_Painting': {'Object': 'Person', 'Duration': 4.46005689}, 'A1_Painting': {'Object': 'Building', 'Duration': 4.752273329999999}, 'C2_Painting': {'Object': 'Human head', 'Duration': 0.0830717}, 'D2_Painting': {'Object': 'Human head', 'Duration': 2.3136381999999993}, 'D5_Painting': {'Object': 'Person', 'Duration': 1.6128503000000007}, 'C3_Painting': {'Object': 'Human head', 'Duration': 0.1274532}, 'B4_Painting': {'Object': 'Person', 'Duration': 8.335783700000006}}
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Participant: 2
 Image: C6_Painting, Total time: 0.7234487 Average gaze: 0.012473253448275861
@@ -3474,13 +3474,6 @@ Average duration in objects: 0.01866236939583333
 Average duration outside objects: 0.012181567187499999
 {'B1_Painting': {'Human head': 2.19801201, 'Person': 8.957937309999998, 'Human hair': 0.2491176, 'Human eye': 0.1360679, 'Human mouth': 0.06697789999999999, 'Human hand': 0.2160834}}
 
-Image: A1_Painting, Total time: 35.03430193 Average gaze: 0.02969008638135593
-Total duration in objects: 11.25108382
-Total duration outside objects: 23.78321811000001
-Average duration in objects: 0.038796840758620686
-Average duration outside objects: 0.0267227169775281
-{'A1_Painting': {'Tree': 1.9444345900000002, 'Building': 12.675169040000004, 'Animal': 0.05142680000000001, 'Person': 0.0633316}}
-
 Image: A2_Painting, Total time: 9.42911869 Average gaze: 0.02167613491954023
 Total duration in objects: 5.533708189999994
 Total duration outside objects: 3.895410500000002
@@ -3523,12 +3516,19 @@ Average duration in objects: 0.03699935206730765
 Average duration outside objects: 0.02556140319587628
 {'D4_Painting': {'Human head': 19.301828089999976, 'Human hair': 14.93939299, 'Person': 23.087595689999976, 'Human eye': 0.6164064, 'Human mouth': 0.2210865, 'Human hand': 0.3224983}}
 
-Image: C2_Painting, Total time: 25.567051799999994 Average gaze: 0.03546054341192787
-Total duration in objects: 1.1711364999999998
-Total duration outside objects: 24.395915299999988
-Average duration in objects: 0.02491779787234042
-Average duration outside objects: 0.03619572002967357
-{'C2_Painting': {'Human head': 1.1711364999999998, 'Hat': 1.1711364999999998, 'Human eye': 0.022601200000000002}}
+Image: A1_Painting, Total time: 35.03430193 Average gaze: 0.02969008638135593
+Total duration in objects: 11.25108382
+Total duration outside objects: 23.78321811000001
+Average duration in objects: 0.038796840758620686
+Average duration outside objects: 0.0267227169775281
+{'A1_Painting': {'Tree': 1.9444345900000002, 'Building': 12.675169040000004, 'Animal': 0.05142680000000001, 'Person': 0.0633316}}
+
+Image: C2_Painting, Total time: 35.03430193 Average gaze: 0.02969008638135593
+Total duration in objects: 0.6360888
+Total duration outside objects: 34.398213130000016
+Average duration in objects: 0.018708494117647058
+Average duration outside objects: 0.03001589278359513
+{'C2_Painting': {'Human head': 0.6360888, 'Hat': 0.6360888, 'Human eye': 0.009166, 'Human mouth': 0.0191543}}
 
 Image: D2_Painting, Total time: 14.421065509999998 Average gaze: 0.026220119109090907
 Total duration in objects: 13.657456310000004
@@ -3558,8 +3558,8 @@ Average duration in objects: 0.02390122535031847
 Average duration outside objects: 0.02008891428571429
 {'B4_Painting': {'Person': 15.00996952, 'Human head': 5.308297009999999, 'Human eye': 0.0874026, 'Human mouth': 0.0110651, 'Human hand': 0.30639710000000003}}
 
-Participant: 2, Average time: 21.27033112210526
-Most viewed by participant: {'C6_Painting': {'Object': 'Person', 'Duration': 0.5865750999999999}, 'B3_Painting': {'Object': 'Person', 'Duration': 12.520717729999994}, 'B2_Painting': {'Object': 'Person', 'Duration': 11.333006279999996}, 'D3_Painting': {'Object': 'Human hair', 'Duration': 27.190733459999983}, 'C5_Painting': {'Object': 'Person', 'Duration': 21.589425750000004}, 'C4_Painting': {'Object': 'Person', 'Duration': 30.705985949999985}, 'B1_Painting': {'Object': 'Person', 'Duration': 8.957937309999998}, 'A1_Painting': {'Object': 'Building', 'Duration': 12.675169040000004}, 'A2_Painting': {'Object': 'Human head', 'Duration': 5.533708189999994}, 'C1_Painting': {'Object': 'Hat', 'Duration': 3.487203689999999}, 'D1_Painting': {'Object': 'Person', 'Duration': 24.163507300000017}, 'A3_Painting': {'Object': 'Building', 'Duration': 37.52094401999999}, 'B5_Painting': {'Object': 'Person', 'Duration': 16.776611030000016}, 'D4_Painting': {'Object': 'Person', 'Duration': 23.087595689999976}, 'C2_Painting': {'Object': 'Human head', 'Duration': 1.1711364999999998}, 'D2_Painting': {'Object': 'Human head', 'Duration': 13.657456310000004}, 'D5_Painting': {'Object': 'Person', 'Duration': 21.504047119999985}, 'C3_Painting': {'Object': 'Human head', 'Duration': 3.6575563000000026}, 'B4_Painting': {'Object': 'Person', 'Duration': 15.00996952}}
+Participant: 2, Average time: 21.768607444736837
+Most viewed by participant: {'C6_Painting': {'Object': 'Person', 'Duration': 0.5865750999999999}, 'B3_Painting': {'Object': 'Person', 'Duration': 12.520717729999994}, 'B2_Painting': {'Object': 'Person', 'Duration': 11.333006279999996}, 'D3_Painting': {'Object': 'Human hair', 'Duration': 27.190733459999983}, 'C5_Painting': {'Object': 'Person', 'Duration': 21.589425750000004}, 'C4_Painting': {'Object': 'Person', 'Duration': 30.705985949999985}, 'B1_Painting': {'Object': 'Person', 'Duration': 8.957937309999998}, 'A2_Painting': {'Object': 'Human head', 'Duration': 5.533708189999994}, 'C1_Painting': {'Object': 'Hat', 'Duration': 3.487203689999999}, 'D1_Painting': {'Object': 'Person', 'Duration': 24.163507300000017}, 'A3_Painting': {'Object': 'Building', 'Duration': 37.52094401999999}, 'B5_Painting': {'Object': 'Person', 'Duration': 16.776611030000016}, 'D4_Painting': {'Object': 'Person', 'Duration': 23.087595689999976}, 'A1_Painting': {'Object': 'Building', 'Duration': 12.675169040000004}, 'C2_Painting': {'Object': 'Human head', 'Duration': 0.6360888}, 'D2_Painting': {'Object': 'Human head', 'Duration': 13.657456310000004}, 'D5_Painting': {'Object': 'Person', 'Duration': 21.504047119999985}, 'C3_Painting': {'Object': 'Human head', 'Duration': 3.6575563000000026}, 'B4_Painting': {'Object': 'Person', 'Duration': 15.00996952}}
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Participant: 5
 Image: C6_Painting, Total time: 6.4714032 Average gaze: 0.02789397931034483
@@ -3611,13 +3611,6 @@ Average duration in objects: 0.028103517332305337
 Average duration outside objects: 0.014723977631578946
 {'B1_Painting': {'Person': 36.45026198000002, 'Human head': 15.078693870000004, 'Human hair': 8.918139760000003, 'Human eye': 1.5140611, 'Human mouth': 0.1670951, 'Human hand': 2.684447400000002}}
 
-Image: A1_Painting, Total time: 85.94675058 Average gaze: 0.0475106415588723
-Total duration in objects: 11.352681910000006
-Total duration outside objects: 74.5940686700003
-Average duration in objects: 0.041282479672727294
-Average duration outside objects: 0.048627163409387414
-{'A1_Painting': {'Building': 13.255073650000002, 'Tree': 0.051795100000000004, 'Animal': 1.47043278, 'Person': 0.90184979}}
-
 Image: A2_Painting, Total time: 20.730453750000002 Average gaze: 0.03994307080924856
 Total duration in objects: 18.10289795
 Total duration outside objects: 2.6275557999999997
@@ -3660,6 +3653,13 @@ Average duration in objects: 0.03067719912650603
 Average duration outside objects: 0.027265164406779657
 {'D4_Painting': {'Person': 10.184830110000002, 'Human head': 5.989447299999997, 'Human hair': 4.380193799999997, 'Human eye': 1.5519707999999999, 'Human mouth': 0.1040531, 'Human hand': 0.9017903999999999}}
 
+Image: A1_Painting, Total time: 85.94675058 Average gaze: 0.0475106415588723
+Total duration in objects: 11.352681910000006
+Total duration outside objects: 74.5940686700003
+Average duration in objects: 0.041282479672727294
+Average duration outside objects: 0.048627163409387414
+{'A1_Painting': {'Building': 13.255073650000002, 'Tree': 0.051795100000000004, 'Animal': 1.47043278, 'Person': 0.90184979}}
+
 Image: C2_Painting, Total time: 6.227007810000001 Average gaze: 0.021772754580419582
 Total duration in objects: 1.2963940000000003
 Total duration outside objects: 4.9306138100000005
@@ -3696,7 +3696,7 @@ Average duration outside objects: 0.020338986324786326
 {'B4_Painting': {'Human head': 8.416038179999997, 'Person': 29.747634820000023, 'Human eye': 0.0749065, 'Human hand': 0.5436934999999998}}
 
 Participant: 5, Average time: 35.16664821052632
-Most viewed by participant: {'C6_Painting': {'Object': 'Person', 'Duration': 6.4327431}, 'B3_Painting': {'Object': 'Person', 'Duration': 35.76121267000003}, 'B2_Painting': {'Object': 'Person', 'Duration': 54.216358040000046}, 'D3_Painting': {'Object': 'Human hair', 'Duration': 60.58338014000009}, 'C5_Painting': {'Object': 'Person', 'Duration': 21.982465890000018}, 'C4_Painting': {'Object': 'Person', 'Duration': 23.127942710000017}, 'B1_Painting': {'Object': 'Person', 'Duration': 36.45026198000002}, 'A1_Painting': {'Object': 'Building', 'Duration': 13.255073650000002}, 'A2_Painting': {'Object': 'Human head', 'Duration': 18.10289795}, 'C1_Painting': {'Object': 'Hat', 'Duration': 13.248368589999995}, 'D1_Painting': {'Object': 'Person', 'Duration': 39.358545179999986}, 'A3_Painting': {'Object': 'Building', 'Duration': 66.17358818999998}, 'B5_Painting': {'Object': 'Person', 'Duration': 36.37108546999999}, 'D4_Painting': {'Object': 'Person', 'Duration': 10.184830110000002}, 'C2_Painting': {'Object': 'Human head', 'Duration': 1.2963940000000003}, 'D2_Painting': {'Object': 'Human head', 'Duration': 48.669179409999956}, 'D5_Painting': {'Object': 'Person', 'Duration': 21.16312613000001}, 'C3_Painting': {'Object': 'Human head', 'Duration': 6.8085995000000015}, 'B4_Painting': {'Object': 'Person', 'Duration': 29.747634820000023}}
+Most viewed by participant: {'C6_Painting': {'Object': 'Person', 'Duration': 6.4327431}, 'B3_Painting': {'Object': 'Person', 'Duration': 35.76121267000003}, 'B2_Painting': {'Object': 'Person', 'Duration': 54.216358040000046}, 'D3_Painting': {'Object': 'Human hair', 'Duration': 60.58338014000009}, 'C5_Painting': {'Object': 'Person', 'Duration': 21.982465890000018}, 'C4_Painting': {'Object': 'Person', 'Duration': 23.127942710000017}, 'B1_Painting': {'Object': 'Person', 'Duration': 36.45026198000002}, 'A2_Painting': {'Object': 'Human head', 'Duration': 18.10289795}, 'C1_Painting': {'Object': 'Hat', 'Duration': 13.248368589999995}, 'D1_Painting': {'Object': 'Person', 'Duration': 39.358545179999986}, 'A3_Painting': {'Object': 'Building', 'Duration': 66.17358818999998}, 'B5_Painting': {'Object': 'Person', 'Duration': 36.37108546999999}, 'D4_Painting': {'Object': 'Person', 'Duration': 10.184830110000002}, 'A1_Painting': {'Object': 'Building', 'Duration': 13.255073650000002}, 'C2_Painting': {'Object': 'Human head', 'Duration': 1.2963940000000003}, 'D2_Painting': {'Object': 'Human head', 'Duration': 48.669179409999956}, 'D5_Painting': {'Object': 'Person', 'Duration': 21.16312613000001}, 'C3_Painting': {'Object': 'Human head', 'Duration': 6.8085995000000015}, 'B4_Painting': {'Object': 'Person', 'Duration': 29.747634820000023}}
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Participant: 20
 Image: C6_Painting, Total time: 4.07052661 Average gaze: 0.02660474908496732
@@ -3748,13 +3748,6 @@ Average duration in objects: 0.012893031428571438
 Average duration outside objects: 0.011042149999999999
 {'B1_Painting': {'Human head': 0.7926217000000002, 'Person': 1.353768300000001, 'Human hair': 0.4393641, 'Human eye': 0.0210135, 'Human hand': 0.0121553}}
 
-Image: A1_Painting, Total time: 11.164384510000001 Average gaze: 0.018272315073649757
-Total duration in objects: 0.3844916
-Total duration outside objects: 10.779892909999997
-Average duration in objects: 0.013258331034482759
-Average duration outside objects: 0.01852215276632302
-{'A1_Painting': {'Tree': 0.0333388, 'Building': 0.3546261, 'Animal': 0.10781300000000002, 'Person': 0.008947}}
-
 Image: A2_Painting, Total time: 2.4111097 Average gaze: 0.012557863020833332
 Total duration in objects: 0.4471282
 Total duration outside objects: 1.9639814999999992
@@ -3797,6 +3790,13 @@ Average duration in objects: 0.01273235630252101
 Average duration outside objects: 0.013795486046511629
 {'D4_Painting': {'Person': 1.5151504000000002, 'Human head': 0.9592473, 'Human hair': 0.8584633, 'Human eye': 0.033301700000000004}}
 
+Image: A1_Painting, Total time: 11.164384510000001 Average gaze: 0.018272315073649757
+Total duration in objects: 0.3844916
+Total duration outside objects: 10.779892909999997
+Average duration in objects: 0.013258331034482759
+Average duration outside objects: 0.01852215276632302
+{'A1_Painting': {'Tree': 0.0333388, 'Building': 0.3546261, 'Animal': 0.10781300000000002, 'Person': 0.008947}}
+
 Image: C2_Painting, Total time: 0.7158374999999998 Average gaze: 0.011545766129032254
 Total duration in objects: 0.0094149
 Total duration outside objects: 0.7064225999999997
@@ -3832,8 +3832,8 @@ Average duration in objects: 0.013915743902439026
 Average duration outside objects: 0.013413475
 {'B4_Painting': {'Human head': 0.6704769, 'Person': 1.141091, 'Human mouth': 0.0111385, 'Human hand': 0.0112172}}
 
-Participant: 20, Average time: 3.724981045263159
-Most viewed by participant: {'C6_Painting': {'Object': 'Person', 'Duration': 4.059315209999999}, 'B3_Painting': {'Object': 'Person', 'Duration': 0.8292456000000001}, 'B2_Painting': {'Object': 'Person', 'Duration': 2.0365909}, 'D3_Painting': {'Object': 'Human hair', 'Duration': 2.6206232999999988}, 'C5_Painting': {'Object': 'Person', 'Duration': 2.6500562999999997}, 'C4_Painting': {'Object': 'Person', 'Duration': 1.1418685}, 'B1_Painting': {'Object': 'Person', 'Duration': 1.353768300000001}, 'A1_Painting': {'Object': 'Building', 'Duration': 0.3546261}, 'A2_Painting': {'Object': 'Human head', 'Duration': 0.4471282}, 'C1_Painting': {'Object': 'Hat', 'Duration': 0.039564999999999996}, 'D1_Painting': {'Object': 'Person', 'Duration': 1.9936738000000005}, 'A3_Painting': {'Object': 'Building', 'Duration': 3.35728571}, 'B5_Painting': {'Object': 'Building', 'Duration': 0.9990833}, 'D4_Painting': {'Object': 'Person', 'Duration': 1.5151504000000002}, 'C2_Painting': {'Object': 'Human head', 'Duration': 0.0094149}, 'D2_Painting': {'Object': 'Human head', 'Duration': 6.041320320000004}, 'D5_Painting': {'Object': 'Person', 'Duration': 3.7718103999999983}, 'C3_Painting': {'Object': None, 'Duration': None}, 'B4_Painting': {'Object': 'Person', 'Duration': 1.141091}}
+Participant: 20, Average time: 3.724981045263158
+Most viewed by participant: {'C6_Painting': {'Object': 'Person', 'Duration': 4.059315209999999}, 'B3_Painting': {'Object': 'Person', 'Duration': 0.8292456000000001}, 'B2_Painting': {'Object': 'Person', 'Duration': 2.0365909}, 'D3_Painting': {'Object': 'Human hair', 'Duration': 2.6206232999999988}, 'C5_Painting': {'Object': 'Person', 'Duration': 2.6500562999999997}, 'C4_Painting': {'Object': 'Person', 'Duration': 1.1418685}, 'B1_Painting': {'Object': 'Person', 'Duration': 1.353768300000001}, 'A2_Painting': {'Object': 'Human head', 'Duration': 0.4471282}, 'C1_Painting': {'Object': 'Hat', 'Duration': 0.039564999999999996}, 'D1_Painting': {'Object': 'Person', 'Duration': 1.9936738000000005}, 'A3_Painting': {'Object': 'Building', 'Duration': 3.35728571}, 'B5_Painting': {'Object': 'Building', 'Duration': 0.9990833}, 'D4_Painting': {'Object': 'Person', 'Duration': 1.5151504000000002}, 'A1_Painting': {'Object': 'Building', 'Duration': 0.3546261}, 'C2_Painting': {'Object': 'Human head', 'Duration': 0.0094149}, 'D2_Painting': {'Object': 'Human head', 'Duration': 6.041320320000004}, 'D5_Painting': {'Object': 'Person', 'Duration': 3.7718103999999983}, 'C3_Painting': {'Object': None, 'Duration': None}, 'B4_Painting': {'Object': 'Person', 'Duration': 1.141091}}
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Participant: 27
 Image: C6_Painting, Total time: 7.16056992 Average gaze: 0.019671895384615386
@@ -3885,19 +3885,12 @@ Average duration in objects: 0.017997214477211778
 Average duration outside objects: 0.01502389007604563
 {'B1_Painting': {'Human hair': 1.5467091000000004, 'Human head': 4.000027189999999, 'Person': 26.851843999999975, 'Human eye': 0.0110803, 'Human mouth': 0.0111504, 'Human hand': 2.7403285999999984}}
 
-Image: A1_Painting, Total time: 17.21301142 Average gaze: 0.020085194189031506
-Total duration in objects: 5.35511981
-Total duration outside objects: 11.857891609999989
-Average duration in objects: 0.023283129608695653
-Average duration outside objects: 0.01891210783094097
-{'A1_Painting': {'Building': 5.200817510000004, 'Tree': 1.4716433999999998, 'Animal': 0.08841699999999998, 'Person': 0.0091969}}
-
-Image: A2_Painting, Total time: 17.21301142 Average gaze: 0.020085194189031506
-Total duration in objects: 2.000330109999999
-Total duration outside objects: 15.212681309999986
-Average duration in objects: 0.016951950084745752
-Average duration outside objects: 0.020585495683355867
-{'A2_Painting': {'Human hair': 1.1827661999999997, 'Human head': 2.000330109999999, 'Human eye': 0.0219133}}
+Image: A2_Painting, Total time: 30.80312709 Average gaze: 0.01755163936752137
+Total duration in objects: 8.9395381
+Total duration outside objects: 21.863588989999986
+Average duration in objects: 0.023463354593175854
+Average duration outside objects: 0.01591236462154293
+{'A2_Painting': {'Human hair': 4.15057271, 'Human head': 8.9395381, 'Human eye': 0.24502759999999996, 'Human mouth': 0.11708969999999999}}
 
 Image: C1_Painting, Total time: 3.9914155099999995 Average gaze: 0.03440875439655172
 Total duration in objects: 3.25734221
@@ -3934,6 +3927,13 @@ Average duration in objects: 0.032027949457579946
 Average duration outside objects: 0.014089747368421052
 {'D4_Painting': {'Human head': 17.697333989999994, 'Human hair': 13.065264369999998, 'Person': 23.02809565999998, 'Human eye': 0.3387127, 'Human mouth': 0.32560739999999994, 'Human hand': 0.11624839999999997}}
 
+Image: A1_Painting, Total time: 17.21301142 Average gaze: 0.020085194189031506
+Total duration in objects: 5.35511981
+Total duration outside objects: 11.857891609999989
+Average duration in objects: 0.023283129608695653
+Average duration outside objects: 0.01891210783094097
+{'A1_Painting': {'Building': 5.200817510000004, 'Tree': 1.4716433999999998, 'Animal': 0.08841699999999998, 'Person': 0.0091969}}
+
 Image: C2_Painting, Total time: 10.5659487 Average gaze: 0.028026389124668434
 Total duration in objects: 2.572705699999999
 Total duration outside objects: 7.993243000000003
@@ -3969,8 +3969,8 @@ Average duration in objects: 0.036955404387197514
 Average duration outside objects: 0.027971728
 {'B4_Painting': {'Person': 47.33987302000001, 'Human head': 20.52140889000001, 'Human eye': 0.13122621, 'Human mouth': 0.2398996, 'Human hand': 0.6320429}}
 
-Participant: 27, Average time: 25.118568289473686
-Most viewed by participant: {'C6_Painting': {'Object': 'Person', 'Duration': 6.63210222}, 'B3_Painting': {'Object': 'Person', 'Duration': 6.789147569999999}, 'B2_Painting': {'Object': 'Person', 'Duration': 2.389208099999999}, 'D3_Painting': {'Object': 'Human hair', 'Duration': 29.65962415000003}, 'C5_Painting': {'Object': 'Person', 'Duration': 2.1230281}, 'C4_Painting': {'Object': 'Person', 'Duration': 15.57167820999999}, 'B1_Painting': {'Object': 'Person', 'Duration': 26.851843999999975}, 'A1_Painting': {'Object': 'Building', 'Duration': 5.200817510000004}, 'A2_Painting': {'Object': 'Human head', 'Duration': 2.000330109999999}, 'C1_Painting': {'Object': 'Hat', 'Duration': 3.1946650100000005}, 'D1_Painting': {'Object': 'Person', 'Duration': 17.68911818}, 'A3_Painting': {'Object': 'Building', 'Duration': 54.09510110000004}, 'B5_Painting': {'Object': 'Person', 'Duration': 10.100148289999991}, 'D4_Painting': {'Object': 'Person', 'Duration': 23.02809565999998}, 'C2_Painting': {'Object': 'Human head', 'Duration': 2.572705699999999}, 'D2_Painting': {'Object': 'Human head', 'Duration': 52.83011290000007}, 'D5_Painting': {'Object': 'Person', 'Duration': 46.532740979999986}, 'C3_Painting': {'Object': 'Human head', 'Duration': 22.098535250000012}, 'B4_Painting': {'Object': 'Person', 'Duration': 47.33987302000001}}
+Participant: 27, Average time: 25.833837535263157
+Most viewed by participant: {'C6_Painting': {'Object': 'Person', 'Duration': 6.63210222}, 'B3_Painting': {'Object': 'Person', 'Duration': 6.789147569999999}, 'B2_Painting': {'Object': 'Person', 'Duration': 2.389208099999999}, 'D3_Painting': {'Object': 'Human hair', 'Duration': 29.65962415000003}, 'C5_Painting': {'Object': 'Person', 'Duration': 2.1230281}, 'C4_Painting': {'Object': 'Person', 'Duration': 15.57167820999999}, 'B1_Painting': {'Object': 'Person', 'Duration': 26.851843999999975}, 'A2_Painting': {'Object': 'Human head', 'Duration': 8.9395381}, 'C1_Painting': {'Object': 'Hat', 'Duration': 3.1946650100000005}, 'D1_Painting': {'Object': 'Person', 'Duration': 17.68911818}, 'A3_Painting': {'Object': 'Building', 'Duration': 54.09510110000004}, 'B5_Painting': {'Object': 'Person', 'Duration': 10.100148289999991}, 'D4_Painting': {'Object': 'Person', 'Duration': 23.02809565999998}, 'A1_Painting': {'Object': 'Building', 'Duration': 5.200817510000004}, 'C2_Painting': {'Object': 'Human head', 'Duration': 2.572705699999999}, 'D2_Painting': {'Object': 'Human head', 'Duration': 52.83011290000007}, 'D5_Painting': {'Object': 'Person', 'Duration': 46.532740979999986}, 'C3_Painting': {'Object': 'Human head', 'Duration': 22.098535250000012}, 'B4_Painting': {'Object': 'Person', 'Duration': 47.33987302000001}}
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Participant: 11
 Image: C6_Painting, Total time: 41.069776649999994 Average gaze: 0.03513240089820359
@@ -4022,13 +4022,6 @@ Average duration in objects: 0.018199413784172638
 Average duration outside objects: 0.01694872087912086
 {'B1_Painting': {'Human hair': 0.2901052, 'Human head': 1.5544404100000002, 'Person': 12.648592579999983, 'Human mouth': 0.0096175, 'Human hand': 0.0517688}}
 
-Image: A1_Painting, Total time: 43.76233583 Average gaze: 0.02584898749556999
-Total duration in objects: 10.062330660000008
-Total duration outside objects: 33.70000517000001
-Average duration in objects: 0.02959509017647061
-Average duration outside objects: 0.024907616533628982
-{'A1_Painting': {'Tree': 1.5587908899999998, 'Building': 11.122493470000009, 'Animal': 0.30696660000000003, 'Person': 0.09700109999999999}}
-
 Image: A2_Painting, Total time: 9.96289831 Average gaze: 0.016604830516666665
 Total duration in objects: 3.9985923000000017
 Total duration outside objects: 5.964306010000005
@@ -4071,6 +4064,13 @@ Average duration in objects: 0.01825852843891402
 Average duration outside objects: 0.023168591428571434
 {'D4_Painting': {'Person': 16.140539139999994, 'Human head': 8.502268140000005, 'Human hair': 5.8997100399999995, 'Human eye': 0.10739459999999999, 'Human mouth': 0.1083826, 'Human hand': 0.5456236}}
 
+Image: A1_Painting, Total time: 43.76233583 Average gaze: 0.02584898749556999
+Total duration in objects: 10.062330660000008
+Total duration outside objects: 33.70000517000001
+Average duration in objects: 0.02959509017647061
+Average duration outside objects: 0.024907616533628982
+{'A1_Painting': {'Tree': 1.5587908899999998, 'Building': 11.122493470000009, 'Animal': 0.30696660000000003, 'Person': 0.09700109999999999}}
+
 Image: C2_Painting, Total time: 9.20394559 Average gaze: 0.02223175263285024
 Total duration in objects: 2.314375899999999
 Total duration outside objects: 6.88956969
@@ -4106,8 +4106,8 @@ Average duration in objects: 0.04401528939782189
 Average duration outside objects: 0.01775253867924529
 {'B4_Painting': {'Human head': 28.027408630000004, 'Person': 68.70786674999998, 'Human eye': 0.0984747, 'Human mouth': 0.0135667, 'Human hand': 0.0368195}}
 
-Participant: 11, Average time: 30.876144734736847
-Most viewed by participant: {'C6_Painting': {'Object': 'Person', 'Duration': 40.70772694999995}, 'B3_Painting': {'Object': 'Person', 'Duration': 9.455711819999996}, 'B2_Painting': {'Object': 'Person', 'Duration': 15.90055877999999}, 'D3_Painting': {'Object': 'Human hair', 'Duration': 18.023071399999978}, 'C5_Painting': {'Object': 'Person', 'Duration': 20.593477509999982}, 'C4_Painting': {'Object': 'Person', 'Duration': 77.97013820000019}, 'B1_Painting': {'Object': 'Person', 'Duration': 12.648592579999983}, 'A1_Painting': {'Object': 'Building', 'Duration': 11.122493470000009}, 'A2_Painting': {'Object': 'Human head', 'Duration': 3.9985923000000017}, 'C1_Painting': {'Object': 'Hat', 'Duration': 1.6590588000000006}, 'D1_Painting': {'Object': 'Person', 'Duration': 31.239000669999967}, 'A3_Painting': {'Object': 'Building', 'Duration': 38.390950819999986}, 'B5_Painting': {'Object': 'Person', 'Duration': 11.415162909999992}, 'D4_Painting': {'Object': 'Person', 'Duration': 16.140539139999994}, 'C2_Painting': {'Object': 'Human head', 'Duration': 2.314375899999999}, 'D2_Painting': {'Object': 'Human head', 'Duration': 24.11925212}, 'D5_Painting': {'Object': 'Person', 'Duration': 17.07312366}, 'C3_Painting': {'Object': 'Human head', 'Duration': 4.6258676}, 'B4_Painting': {'Object': 'Person', 'Duration': 68.70786674999998}}
+Participant: 11, Average time: 30.87614473473684
+Most viewed by participant: {'C6_Painting': {'Object': 'Person', 'Duration': 40.70772694999995}, 'B3_Painting': {'Object': 'Person', 'Duration': 9.455711819999996}, 'B2_Painting': {'Object': 'Person', 'Duration': 15.90055877999999}, 'D3_Painting': {'Object': 'Human hair', 'Duration': 18.023071399999978}, 'C5_Painting': {'Object': 'Person', 'Duration': 20.593477509999982}, 'C4_Painting': {'Object': 'Person', 'Duration': 77.97013820000019}, 'B1_Painting': {'Object': 'Person', 'Duration': 12.648592579999983}, 'A2_Painting': {'Object': 'Human head', 'Duration': 3.9985923000000017}, 'C1_Painting': {'Object': 'Hat', 'Duration': 1.6590588000000006}, 'D1_Painting': {'Object': 'Person', 'Duration': 31.239000669999967}, 'A3_Painting': {'Object': 'Building', 'Duration': 38.390950819999986}, 'B5_Painting': {'Object': 'Person', 'Duration': 11.415162909999992}, 'D4_Painting': {'Object': 'Person', 'Duration': 16.140539139999994}, 'A1_Painting': {'Object': 'Building', 'Duration': 11.122493470000009}, 'C2_Painting': {'Object': 'Human head', 'Duration': 2.314375899999999}, 'D2_Painting': {'Object': 'Human head', 'Duration': 24.11925212}, 'D5_Painting': {'Object': 'Person', 'Duration': 17.07312366}, 'C3_Painting': {'Object': 'Human head', 'Duration': 4.6258676}, 'B4_Painting': {'Object': 'Person', 'Duration': 68.70786674999998}}
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Participant: 16
 Image: C6_Painting, Total time: 0.9593891000000001 Average gaze: 0.011699867073170733
@@ -4159,13 +4159,6 @@ Average duration in objects: 0.012138141818181814
 Average duration outside objects: 0.011163011111111109
 {'B1_Painting': {'Human mouth': 0.13005689999999998, 'Human head': 0.3764514, 'Person': 1.3351955999999996, 'Human hand': 0.28030879999999997}}
 
-Image: A1_Painting, Total time: 3.4569026000000003 Average gaze: 0.013450982879377432
-Total duration in objects: 0.1266864
-Total duration outside objects: 3.3302161999999975
-Average duration in objects: 0.011516945454545456
-Average duration outside objects: 0.013537464227642267
-{'A1_Painting': {'Building': 0.0667589, 'Animal': 0.051183400000000004, 'Person': 0.0311163}}
-
 Image: A2_Painting, Total time: 8.34168909 Average gaze: 0.014407062331606216
 Total duration in objects: 2.5936798999999997
 Total duration outside objects: 5.748009189999999
@@ -4208,6 +4201,13 @@ Average duration in objects: 0.01303045333333333
 Average duration outside objects: 0.012839272000000002
 {'D4_Painting': {'Human head': 0.8992023, 'Human hair': 0.20210269999999994, 'Person': 1.7591111999999995, 'Human eye': 0.0087533, 'Human mouth': 0.0418781}}
 
+Image: A1_Painting, Total time: 3.4569026000000003 Average gaze: 0.013450982879377432
+Total duration in objects: 0.1266864
+Total duration outside objects: 3.3302161999999975
+Average duration in objects: 0.011516945454545456
+Average duration outside objects: 0.013537464227642267
+{'A1_Painting': {'Building': 0.0667589, 'Animal': 0.051183400000000004, 'Person': 0.0311163}}
+
 Image: C2_Painting, Total time: 4.5392699 Average gaze: 0.01626978458781362
 Total duration in objects: 1.0729702
 Total duration outside objects: 3.466299700000001
@@ -4244,7 +4244,7 @@ Average duration outside objects: 0
 {'B4_Painting': {'Human head': 0.6906042000000002, 'Person': 2.4335239000000017, 'Human mouth': 0.030884500000000002, 'Human hand': 0.021926800000000003}}
 
 Participant: 16, Average time: 2.7827541110526313
-Most viewed by participant: {'C6_Painting': {'Object': 'Person', 'Duration': 0.9162064000000002}, 'B3_Painting': {'Object': 'Person', 'Duration': 0.2070393}, 'B2_Painting': {'Object': 'Person', 'Duration': 0.9610411999999999}, 'D3_Painting': {'Object': 'Human hair', 'Duration': 1.7093916999999996}, 'C5_Painting': {'Object': 'Person', 'Duration': 0.2186844}, 'C4_Painting': {'Object': 'Person', 'Duration': 4.642609200000001}, 'B1_Painting': {'Object': 'Person', 'Duration': 1.3351955999999996}, 'A1_Painting': {'Object': 'Building', 'Duration': 0.0667589}, 'A2_Painting': {'Object': 'Human head', 'Duration': 2.5936798999999997}, 'C1_Painting': {'Object': None, 'Duration': None}, 'D1_Painting': {'Object': 'Person', 'Duration': 1.2448109999999992}, 'A3_Painting': {'Object': 'Building', 'Duration': 5.817343519999999}, 'B5_Painting': {'Object': 'Person', 'Duration': 1.1004450999999995}, 'D4_Painting': {'Object': 'Person', 'Duration': 1.7591111999999995}, 'C2_Painting': {'Object': 'Human head', 'Duration': 1.0729702}, 'D2_Painting': {'Object': 'Human head', 'Duration': 2.9482207}, 'D5_Painting': {'Object': 'Person', 'Duration': 4.112989599999999}, 'C3_Painting': {'Object': 'Human head', 'Duration': 0.1184628}, 'B4_Painting': {'Object': 'Person', 'Duration': 2.4335239000000017}}
+Most viewed by participant: {'C6_Painting': {'Object': 'Person', 'Duration': 0.9162064000000002}, 'B3_Painting': {'Object': 'Person', 'Duration': 0.2070393}, 'B2_Painting': {'Object': 'Person', 'Duration': 0.9610411999999999}, 'D3_Painting': {'Object': 'Human hair', 'Duration': 1.7093916999999996}, 'C5_Painting': {'Object': 'Person', 'Duration': 0.2186844}, 'C4_Painting': {'Object': 'Person', 'Duration': 4.642609200000001}, 'B1_Painting': {'Object': 'Person', 'Duration': 1.3351955999999996}, 'A2_Painting': {'Object': 'Human head', 'Duration': 2.5936798999999997}, 'C1_Painting': {'Object': None, 'Duration': None}, 'D1_Painting': {'Object': 'Person', 'Duration': 1.2448109999999992}, 'A3_Painting': {'Object': 'Building', 'Duration': 5.817343519999999}, 'B5_Painting': {'Object': 'Person', 'Duration': 1.1004450999999995}, 'D4_Painting': {'Object': 'Person', 'Duration': 1.7591111999999995}, 'A1_Painting': {'Object': 'Building', 'Duration': 0.0667589}, 'C2_Painting': {'Object': 'Human head', 'Duration': 1.0729702}, 'D2_Painting': {'Object': 'Human head', 'Duration': 2.9482207}, 'D5_Painting': {'Object': 'Person', 'Duration': 4.112989599999999}, 'C3_Painting': {'Object': 'Human head', 'Duration': 0.1184628}, 'B4_Painting': {'Object': 'Person', 'Duration': 2.4335239000000017}}
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Most viewed objects per painting:
 {'Painting': 'C6_Painting', 'Object': 'Person', 'Count': 31, 'Duration': 409.37878988999995, 'Percentage': 100.0}
@@ -4254,24 +4254,24 @@ Most viewed objects per painting:
 {'Painting': 'C5_Painting', 'Object': 'Person', 'Count': 30, 'Duration': 277.64987254, 'Percentage': 96.7741935483871}
 {'Painting': 'C4_Painting', 'Object': 'Person', 'Count': 31, 'Duration': 522.3439325200003, 'Percentage': 100.0}
 {'Painting': 'B1_Painting', 'Object': 'Person', 'Count': 31, 'Duration': 288.54374896999997, 'Percentage': 100.0}
-{'Painting': 'A1_Painting', 'Object': 'Building', 'Count': 29, 'Duration': 142.25248594, 'Percentage': 93.54838709677419}
-{'Painting': 'A2_Painting', 'Object': 'Human head', 'Count': 30, 'Duration': 119.79431646, 'Percentage': 96.7741935483871}
+{'Painting': 'A2_Painting', 'Object': 'Human head', 'Count': 30, 'Duration': 126.73352445, 'Percentage': 96.7741935483871}
 {'Painting': 'C1_Painting', 'Object': 'Hat', 'Count': 25, 'Duration': 63.88454817000001, 'Percentage': 80.64516129032258}
 {'Painting': 'D1_Painting', 'Object': 'Person', 'Count': 31, 'Duration': 366.62918956, 'Percentage': 100.0}
 {'Painting': 'A3_Painting', 'Object': 'Building', 'Count': 30, 'Duration': 645.0901655700002, 'Percentage': 96.7741935483871}
 {'Painting': 'B5_Painting', 'Object': 'Person', 'Count': 26, 'Duration': 321.25198126000004, 'Percentage': 83.87096774193549}
 {'Painting': 'D4_Painting', 'Object': 'Person', 'Count': 31, 'Duration': 261.9982114400001, 'Percentage': 100.0}
-{'Painting': 'C2_Painting', 'Object': 'Human head', 'Count': 30, 'Duration': 65.88046934, 'Percentage': 96.7741935483871}
+{'Painting': 'A1_Painting', 'Object': 'Building', 'Count': 29, 'Duration': 142.25248594, 'Percentage': 93.54838709677419}
+{'Painting': 'C2_Painting', 'Object': 'Human head', 'Count': 31, 'Duration': 65.43455793999999, 'Percentage': 100.0}
 {'Painting': 'D2_Painting', 'Object': 'Human head', 'Count': 31, 'Duration': 475.6511660900001, 'Percentage': 100.0}
 {'Painting': 'D5_Painting', 'Object': 'Person', 'Count': 31, 'Duration': 414.5507115500001, 'Percentage': 100.0}
 {'Painting': 'C3_Painting', 'Object': 'Human head', 'Count': 28, 'Duration': 118.66028053000002, 'Percentage': 90.32258064516128}
 {'Painting': 'B4_Painting', 'Object': 'Person', 'Count': 31, 'Duration': 397.94542652000007, 'Percentage': 100.0}
 
 Meaningful versus non-meaningful areas:
-Shapiro-Wilk's test p-value (normality assumption): 0.6345118880271912
+Shapiro-Wilk's test p-value (normality assumption): 0.5261841416358948
 Paired t-test
-t-statistic: 6.333650474314672
-p-value: 2.7540895174485437e-07
+t-statistic: 6.355885639686464
+p-value: 2.5895836902887683e-07
 Rejected H0: the average time spent on areas containing objects is significantly greater than the average time spent on areas not containing objects
 Average gaze duration on objects was higher in 71% cases
 Total gaze duration on objects was higher in 70% cases

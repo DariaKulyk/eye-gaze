@@ -21,9 +21,10 @@ arguments:
 
 ```
 ### Jupyter notebook
-The notebook contains code for downloading Open Images dataset and evaluating test dataset.
+The notebook contains code for downloading Open Images dataset and evaluating test dataset. The downloaded Open Images dataset is used to prepare the dataset for object detection in prepare_dataset.py.
 
 ### Prepare downloaded Open Images dataset for object detection
+INPUT_JSON and INPUT_IMAGES arguments are based on the output of the Jupyter notebook.
 ```
 usage: prepare_dataset.py [-h] [--input_json INPUT_JSON] [--input_images INPUT_IMAGES] [--output_directory OUTPUT_DIRECTORY]
 
